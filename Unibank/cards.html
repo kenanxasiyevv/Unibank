@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debet kartlar / Unibank</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="">
+    <header class="header1">
+        <div class="top top-navbar-mode">
+            <div class="container ">
+                <div class="alltop ">
+                    <div class="topleft ">
+                        <nav>
+                            <i class="fa-solid fa-bars-staggered type-light"></i>
+                            <a class="unibank-logo me-4" href="index.html">
+                            </a>
+                            <a href="service.html">Xidmət şəbəkəsi</a>
+                            <a href="#">Bank haqqında</a>
+                            <a href="#">Keşbek</a>
+                            <a href="#">Tariflər</a>
+                            <a href="humanresources.html">İnsan resursları</a>
+                            <a href="#">Bankla əlaqə və təkliflər</a>
+                        </nav>
+
+                        <div class="tel">
+                            <a class="type-light" href="tel:117"><i class="fa-solid fa-phone"></i>117</a>
+                        </div>
+
+                    </div>
+                    <div class="topright">
+                        <div class="ctypes d-inline-block ">
+                            <a id="ctype1" class="type-light active_type" href="#">Fərdi</a>
+                            <a id="ctype2" class="type-light" href="#">Biznes</a>
+                        </div>
+                        <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                            <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                        </div>
+                        <div class="language-change d-inline-block">
+                            <a class="type-light d-none btnlang" href="#">AZE</a>
+                            <a class="type-light btnlang" href="#">ENG</a>
+                            <a class="type-light btnlang" href="#">RUS</a>
+                        </div>
+                        <div class="searchmenu d-inline-block">
+                            <i class="fa-solid fa-magnifying-glass type-light"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="allbottom">
+                    <div class="bottomleft">
+                        <nav>
+                            <a href="cards.html">Kartlar</a>
+                            <a href="#">Kreditlər</a>
+                            <a href="#">Əmanətlər</a>
+                            <a href="#">Köçümələr</a>
+                            <a href="#">Rəqəmsal bankçılıq</a>
+                            <a href="#">Əlavə xidmətlər</a>
+                        </nav>
+                    </div>
+                    <div class="bottomright mb-2">
+                        <a href="basket.html"><i class="fa-solid fa-cart-shopping"><sup class="ms-2"> 0</sup> </i></a>
+                        <a href="tel:117"><i class="fa-solid fa-phone"></i><span>117</span></a>
+                        <a href="internetbank.html" target="_blank"><i class="fa-solid fa-circle-right"></i>İnternet
+                            Bankçılıq</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div class="hamburger_menu d-none ">
+        <div class="container">
+
+            <div class="ctypes d-inline-block  ">
+                <a id="ctypeh1" class="type-light active_type" href="#">Fərdi</a>
+                <a id="ctypeh2" class="type-light" href="#">Biznes</a>
+            </div>
+
+            <nav>
+                <a class="bold_nav" href="cards.html">Kartlar</a>
+                <a class="bold_nav" href="#">Kreditlər</a>
+                <a class="bold_nav" href="#">Əmanətlər</a>
+                <a class="bold_nav" href="#">Köçümələr</a>
+                <a class="bold_nav" href="#">Rəqəmsal bankçılıq</a>
+                <a class="bold_nav" href="#">Əlavə xidmətlər</a>
+                <a class="light_nav" href="#">F.A.Q</a>
+                <a class="light_nav" href="service.html">Xidmət şəbəkəsi</a>
+                <a class="light_nav" href="#">Bank haqqında</a>
+                <a class="light_nav" href="#">Keşbek</a>
+                <a class="light_nav" href="#">Tariflər</a>
+                <a class="light_nav" href="humanresources.html">İnsan resursları</a>
+                <a class="light_nav" href="#">Bankla əlaqə və təkliflər</a>
+            </nav>
+
+            <div class="btns_nav d-flex justify-content-center align-items-center ">
+
+                <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                    <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                </div>
+
+                <div class="searchmenu d-inline-block">
+                    <i class="fa-solid fa-magnifying-glass type-light"></i>
+                </div>
+
+                <div class="language-change d-inline-block">
+                    <a class="type-light d-none btnlang" href="#">AZE</a>
+                    <a class="type-light btnlang" href="#">ENG</a>
+                    <a class="type-light btnlang" href="#">RUS</a>
+                </div>
+
+                <div class="cart">
+                    <a class="int type-light" href="basket.html"><i class="fa-solid fa-cart-shopping "><sup
+                                class="ms-2">
+                                0</sup></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="searchdiv d-none">
+        <i class="fa-solid fa-xmark close"></i>
+        <p>Axtarış</p>
+        <form class="mx-auto">
+            <input type="text" class="w-100 px-4 rounded-5">
+        </form>
+        <i class="fa-solid fa-magnifying-glass loop"></i>
+        <div class="searchextension d-none">
+            <p class="d-inline-block w-50 mx-auto text-center">
+                <span>Məhsullar</span>
+                <span>Xəbərlər</span>
+                <span>Digər</span>
+            </p>
+            <a href="#">Bütün nəticələr</a>
+        </div>
+    </div>
+
+
+    <section id="cards">
+        <div class="container">
+            <div class="headercart mt-3">
+                <h2 class="">Kartlar</h2>
+            </div>
+            <div class="firstcard">
+                <div class=" bigcardbox mt-4 type-light">
+                    <div class="cardimage type-light">
+                        <img class="type-light" src="assets/images/ucard.png" alt="">
+                    </div>
+                    <div class="cartcontext type-light">
+                        <h2 class="type-light">UCard</h2>
+                        <p class="type-light">UCard - kredit və multivalyutalı debet kartını özündə birləşdirən tək
+                            kartdır.</p>
+
+                        <div class="card_properties type-light">
+
+                            <div class="main d-flex">
+                                <div class="icon type-light">
+                                    <i class="type-light fa-regular fa-newspaper"></i>
+                                </div>
+
+                                <div class="prop type-light">
+                                    <span class="type-light">
+                                        Multivalyutalı tək kart</span>
+                                </div>
+
+                            </div>
+
+                            <div class="main d-flex">
+
+                                <div class="icon type-light">
+                                    <i class="type-light fa-solid fa-hourglass-start"></i>
+                                </div>
+
+                                <div class="prop type-light">
+                                    <span class="type-light">
+                                        40 günədək faizsiz kredit
+                                    </span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="main d-flex">
+
+                                <div class="icon_last type-light">
+                                    <i class="type-light fa-solid fa-arrow-right-arrow-left"></i>
+                                </div>
+
+                                <div class="prop type-light">
+                                    <span class="type-light">
+                                        30%-dək keşbek
+                                    </span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <button>Ətraflı<i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="headercart mt-5 mb-2`">
+                <h2>Debet kartlar</h2>
+            </div>
+
+            <div class="scnd_cards row mb-0 pb-0">
+                <div id="1" class="cardboxes me-5 g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/platiniumcard.png" alt="">
+                    <h3 class="type-light mb-3">Visa Platinum</h3>
+                    <p class="type-light   mb-5">Bu kartla hər zaman və hər yerdə yüksək statusunu vurğula! Böyük
+                        imkanlar vədd edən kartı həyatının əvəzolunmaz bir hissəsinə çevir.</p>
+                    <strong class="type-light">50</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="2" class="cardboxes g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/visainfinite.png" alt="">
+                    <h3 class="type-light mb-3">Visa Infinite</h3>
+                    <p class="type-light   mb-5">Bu kartın sahibi olaraq, hər yerdə ən yaxşı xidmət və eksklüziv
+                        imkanlar səni gözləyir. Visa növündə olan bu kartdan olduqca fərqli faydalan.</p>
+                    <strong class="type-light">15</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="3" class="cardboxes me-5 g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/unimiles.png" alt="">
+                    <h3 class="type-light mb-3">Unimiles</h3>
+                    <p class="type-light mb-5  mb-5">Uçuşa hazır ol! UniMiles kartı ilə nağdsız ödənişlər et, millər
+                        topla və milləri istənilən hava yollarının aviabiletinə dəyiş.</p>
+                    <strong class="type-light">30</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="4" class="cardboxes g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/blackedition.png" alt="">
+                    <h3 class="type-light mb-3">Mastercard Black Edition</h3>
+                    <p class="type-light   mb-5">Bu kartı əldə etməklə geniş səyahət, sığorta və xidmət imkanlarına
+                        malik olursan. Sənin yüksək statusunu MasterCard-ın ən nüfuzlu kartlarından biri vurğulayır!</p>
+                    <strong class="type-light">40</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="5" class="cardboxes g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/worldelite.png" alt="">
+                    <h3 class="type-light mb-3">Mastercard World Elite
+                    </h3>
+                    <p class="type-light   mb-5">Dünyanın istənilən yerində eksklüziv imkanlar və yüksək xidmət səni
+                        gözləyir! Arzularını bu karta həvalə et!</p>
+                    <strong class="type-light">20</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="headercart mt-5 mb-2`">
+                <h2>Digər kartlar</h2>
+            </div>
+
+            <div class="row scnd_cards other_cards">
+
+                <div id="6" class="cardboxes me-5 g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/albalidebet.png" alt="">
+                    <h3 class="type-light mb-3">Albalı Debet
+                    </h3>
+                    <p class="type-light  mb-5">Bu kartla dünyanın hər bir nöqtəsində rahat alış-veriş, onlayn ödənişlər
+                        et və ya rahat nağd pul çıxar.</p>
+                    <strong class="type-light">25</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="7" class="cardboxes g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/albali.png" alt="">
+                    <h3 class="type-light mb-3">Albalı
+                    </h3>
+                    <p class="type-light  mb-5">Albalı - 4 bank məhsulunu (kredit, taksit kartı, depozit və debet kartı)
+                        özündə birləşdirən beynəlxalq kartdır.</p>
+                    <strong class="type-light">35</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div id="8" class="cardboxes me-5 g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/ucardgift.png" alt="">
+                    <h3 class="type-light mb-3">UCard Gift
+                    </h3>
+                    <p class="type-light  mb-5">UCard Gift-ən çox arzulanan hədiyyə! UCard Gift kartını hədiyyə et!</p>
+                    <strong class="type-light">80</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="type-light ms-3 btn-other">Partnyorlar</button>
+                </div>
+
+                <div id="9" class="cardboxes g-5 col-lg-5 col-12 type-light">
+                    <img class="type-light mb-5" src="assets/images/digitalcart.png" alt="">
+                    <h3 class="type-light mb-3">Digital card
+                    </h3>
+                    <p class="type-light  mb-5">Artıq kart sifarişi üçün banka gəlməyə ehtiyac yoxdur. Bu kart ilə hesab
+                        açmadan UBank-da, müxtəlif İnternet saytlarda bütün ödənişlərini rahatlıqla edə bilərsən.</p>
+                    <strong class="type-light">10</strong><span class="type-light"> AZN</span>
+                    <button class="btn-add">Səbətə əlavə et<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div id="toaster" class="toaster hidden"></div>
+
+
+    <footer class="">
+        <div class="container">
+            <div class="row footer_boxes">
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Kartlar</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="cards.html">Kartlar</a></li>
+                        <li><a href="#">Debet kartlar</a></li>
+                        <li><a href="#">Digər</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Kreditlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Nağd</a></li>
+                        <li><a href="#">Mikro</a></li>
+                        <li><a href="#">İpoteka</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Əmanətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Müddətli</a></li>
+                        <li><a href="#">Proqressiv</a></li>
+                        <li><a href="#">Yığım</a></li>
+                        <li><a href="#">Faizlər əvvəlcədən</a></li>
+                        <li><a href="#">Topla</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Köçürmələr</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Ölkəxarici</a></li>
+                        <li><a href="#">Ölkədaxili</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box ">
+                    <h3>Rəqəmsal bankçılıq</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">UBank</a></li>
+                        <li><a href="#">İnternet bankçılıq</a></li>
+                        <li><a href="#">Şəxsi kabinet</a></li>
+                        <li><a href="#">Unimiles şəxsi kabinet</a></li>
+                        <li><a href="#">Onlayn kredit ödənişi</a></li>
+                        <li><a href="#">Onlayn kredit müraciəti</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Əlavə xidmətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hesablaşma-kassa xidməti</a></li>
+                        <li><a href="#">POS terminal / Smart kassa</a></li>
+                        <li><a href="#">Depozit qutuları</a></li>
+                        <li><a href="#">Onlayn ticarət (eCommerce)</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-13 ftr_box">
+                    <h3>Bank haqqında</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Rəhbərlik</a></li>
+                        <li><a href="#">Müxbir hesablar</a></li>
+                        <li><a href="#">Təklif və Şikayətlər</a></li>
+                        <li><a href="humanresources.html">İnsan resursları</a></li>
+                        <li><a href="#">Hesabatlar</a></li>
+                        <li><a href="#">Digər sənədlər</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="socialm_icons mt-4">
+                <a href="https://apps.apple.com/ru/app/unibank-mobile/id1073632425"><i
+                        class="fa-brands fa-apple"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking&pli=1"><i
+                        class="fa-brands fa-android"></i></a>
+                <a href="https://www.facebook.com/unibank.az/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/unibank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/unibankazerbaijan/"></a> <i
+                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/c/UnibankAze"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/unibank.az/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/UnibankAZ"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <hr>
+            <div class="footer_bottom mt-4">
+                <div class="footer_bottom_left">
+                    © 2023, Unibank - Sənin Bankın
+                    <div class="footer_cr_text">
+                        Bütün hüquqlar qorunur.
+                    </div>
+                </div>
+
+                <div class="footer_imgs">
+                    <img src="assets/images/footer1.png" alt="">
+                    <img src="assets/images/footer2.png" alt="">
+                    <img src="assets/images/footer3.png" alt="">
+                    <img src="assets/images/footer4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_res">
+            <div class="footer_bottom_res">
+                © 2023, Unibank - Sənin Bankın
+                <div class="footer_res_text">
+                    Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli
+                    lisenziyası əsasında fəaliyyət göstərir.
+                    Bütün hüquqlar qorunur.
+                </div>
+            </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cards.js"></script>
+    <script src="assets/js/basket.js"></script>
+</body>
+
+</html>

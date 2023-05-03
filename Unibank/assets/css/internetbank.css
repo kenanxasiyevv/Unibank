@@ -1,0 +1,371 @@
+#body {
+  background-image: url(https://online.unibank.az/ibank/resources/imgs/icons/bg-login.png);
+}
+#body header {
+  width: 55%;
+  margin: auto;
+}
+#body header .allside {
+  padding-top: 5rem;
+}
+#body header .allside .langside a {
+  text-decoration: none;
+  color: #7C7C7C;
+  font-size: 14px;
+  font-family: bold;
+  margin-left: 0.2rem;
+  padding: 4px;
+  transition: 0.7s;
+}
+#body header .allside .langside a:hover {
+  background-color: #000000;
+  color: #000000;
+}
+#body header .allside .active_buton {
+  border-bottom: 3px solid #7c7c7c !important;
+  font-family: extra-bold;
+}
+#body section .commonpage {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 1rem auto 5rem;
+}
+#body section .commonpage .leftpage {
+  width: 530px;
+  min-height: 737px;
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .slide {
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  padding: 6rem;
+  box-shadow: 18px 20px 33px 20px rgba(0, 0, 0, 0.15);
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .slideimg {
+  width: 100%;
+  height: 250px;
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .slideimg img {
+  width: 100%;
+  box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .context {
+  margin-top: 2rem;
+  height: 200px;
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .context h4 {
+  color: #3E3E3E;
+  font-size: 20px;
+  font-family: boldpro;
+}
+#body section .commonpage .leftpage .bankingpage .slidepage .context p {
+  color: #9B9B9B;
+  font-size: 16px;
+  font-family: regular;
+}
+#body section .commonpage .changer {
+  background-color: #F8F8F8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 5rem;
+}
+#body section .commonpage .changer span {
+  padding: 8px;
+  background-color: rgba(175, 168, 168, 0.55);
+  border-radius: 100%;
+  margin: 0 0.1rem;
+  cursor: pointer;
+}
+#body section .commonpage .changer .active_dot {
+  background-color: #FF6400 !important;
+}
+#body section .rightpage {
+  width: 530px;
+  height: 769px !important;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5rem 3rem;
+}
+#body section .rightpage h3 span {
+  font-size: 18px;
+  color: #3F3F3F;
+  font-family: bold;
+}
+#body section .rightpage h3 a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-family: bold;
+  border-bottom: 1px solid #000000;
+}
+#body section .rightpage .logparams {
+  display: flex;
+  justify-content: space-between;
+}
+#body section .rightpage .logparams .left {
+  width: 100%;
+}
+#body section .rightpage .logparams .left img {
+  width: 99%;
+  margin-top: 10px;
+}
+#body section .rightpage .logparams .right {
+  padding: 1rem 0;
+}
+#body section .rightpage .logparams .right .active_buton_360 {
+  border: 1px solid #FF6400 !important;
+}
+#body section .rightpage .logparams .right .active_orange_buton {
+  border-bottom: 1px solid #FF6400;
+}
+#body section .rightpage .logparams .right button {
+  display: block;
+  width: 116%;
+  text-align: left !important;
+  height: 60px;
+  margin: 1rem 0;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+#body section .rightpage .logparams .right button i {
+  font-size: 24px;
+  margin-right: 0.9rem;
+  margin-left: 21px;
+  color: #7C7C7C;
+}
+#body section .rightpage .logparams .right button span {
+  font-size: 18px;
+  color: #000000;
+  font-family: regular;
+}
+#body section .rightpage p {
+  margin-top: 1rem;
+  padding: 5px 20px;
+  background-color: #F3F3F3;
+}
+#body section .rightpage p i {
+  margin-right: 10px;
+  color: #808080;
+  cursor: pointer;
+}
+#body section .rightpage p span {
+  font-size: 16px;
+  font-family: regular;
+  color: #808080;
+}
+#body section .rightpage form {
+  position: relative;
+  margin-top: 2rem;
+}
+#body section .rightpage form input {
+  width: 100%;
+  outline-style: none;
+  font-size: 18px;
+  color: #6F6F6F;
+  font-family: regular;
+  border: none;
+  padding: 0.5rem 3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#body section .rightpage form span {
+  font-size: 14px;
+  font-family: regular;
+  margin-left: 2rem;
+  color: #FF6400;
+}
+#body section .rightpage form .code {
+  width: 50%;
+  padding: 0.3rem 4rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+#body section .rightpage form .user {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  font-size: 22px;
+  color: #808080;
+}
+#body section .rightpage form .warning {
+  position: absolute;
+  top: 25%;
+  left: 95%;
+  font-size: 22px;
+  color: #808080;
+}
+#body section .rightpage form .lock {
+  position: absolute;
+  top: 67%;
+  left: 2%;
+  font-size: 22px;
+  color: #808080;
+}
+#body section .rightpage form .pin {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  z-index: 1;
+}
+#body section .rightpage form a {
+  font-size: 14px;
+  color: #808080;
+  position: absolute;
+  top: 110%;
+  left: 73%;
+}
+#body section .rightpage form button {
+  width: 100%;
+  background-color: #FF6400;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #FF6400;
+  position: absolute;
+  top: 145%;
+  left: 0;
+  text-align: start;
+}
+#body section .rightpage form button .enterance {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: regular;
+}
+#body section .rightpage form button i {
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 90%;
+}
+
+#body::-webkit-scrollbar {
+  width: 3px;
+}
+
+#body::-webkit-scrollbar-thumb {
+  background-color: #FF6400;
+}
+
+@media (max-width: 576px) {
+  .header2 {
+    width: 160% !important;
+  }
+  section .commonpage {
+    width: 160% !important;
+  }
+  section .commonpage img {
+    width: 71% !important;
+    height: 20px;
+  }
+  section .commonpage .leftpage {
+    height: 630px !important;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide {
+    padding: 6rem 2rem !important;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide .slideimg {
+    height: 200px !important;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide .slideimg img {
+    height: 170px !important;
+    width: 100%;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide .context {
+    margin-top: 5rem !important;
+    height: 200px !important;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide .context h4 {
+    font-size: 16px !important;
+  }
+  section .commonpage .leftpage .bankingpage .slidepage .slide .context p {
+    font-size: 14px !important;
+  }
+  section .commonpage .rightpage {
+    height: 630px !important;
+    padding: 4rem 1rem !important;
+  }
+  section .commonpage .rightpage h3 span {
+    font-size: 12px !important;
+  }
+  section .commonpage .rightpage h3 a {
+    font-size: 12px !important;
+  }
+  section .commonpage .rightpage .logparams .left {
+    width: 100% !important;
+  }
+  section .commonpage .rightpage .logparams .left img {
+    width: 95% !important;
+    height: 130px !important;
+    margin-bottom: 10px !important;
+  }
+  section .commonpage .rightpage .logparams .right {
+    padding: 1.5rem 0 !important;
+  }
+  section .commonpage .rightpage .logparams .right button {
+    height: 40px !important;
+    margin: 0.2rem !important;
+    width: 100% !important;
+  }
+  section .commonpage .rightpage .logparams .right button i {
+    font-size: 18px !important;
+    margin-right: 0.5rem !important;
+  }
+  section .commonpage .rightpage .logparams .right button span {
+    font-size: 14px !important;
+  }
+  section .commonpage .rightpage p {
+    padding: 5px !important;
+  }
+  section .commonpage .rightpage p i {
+    margin-right: 5px !important;
+  }
+  section .commonpage .rightpage p span {
+    font-size: 11px !important;
+  }
+  section .commonpage .rightpage form {
+    margin-top: 1rem !important;
+  }
+  section .commonpage .rightpage form span {
+    font-size: 12px !important;
+  }
+  section .commonpage .rightpage form .pin {
+    width: 23% !important;
+  }
+  section .commonpage .rightpage form input {
+    font-size: 14px !important;
+  }
+  section .commonpage .rightpage form .code {
+    width: 60% !important;
+  }
+  section .commonpage .rightpage form .user {
+    font-size: 18px !important;
+  }
+  section .commonpage .rightpage form .warning {
+    font-size: 18px !important;
+    left: 92% !important;
+  }
+  section .commonpage .rightpage form .lock {
+    font-size: 18px !important;
+  }
+  section .commonpage .rightpage form a {
+    font-size: 12px !important;
+    top: 105% !important;
+    text-align: center;
+  }
+  section .commonpage .rightpage form button {
+    width: 300px !important;
+    margin-left: 0.2rem !important;
+    margin-top: 4rem !important;
+  }
+  section .commonpage .rightpage form button .enterance {
+    font-size: 14px !important;
+  }
+  section .commonpage .rightpage form button i {
+    font-size: 12px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 80% !important;
+  }
+}/*# sourceMappingURL=internetbank.css.map */

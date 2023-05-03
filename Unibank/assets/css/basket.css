@@ -1,0 +1,70 @@
+.trtable {
+  align-items: center !important;
+}
+.trtable .tableimg {
+  border-radius: 15px;
+  width: 100%;
+}
+.trtable .btn-danger {
+  font-family: extra-bold;
+  font-size: 17px;
+  background-color: rgb(255, 0, 43) !important;
+}
+.trtable .inputtb {
+  width: 90px;
+  height: 45px;
+  border-radius: 10px;
+}
+.trtable .type {
+  font-family: bold;
+}
+.trtable .descriptiontb {
+  font-family: regular;
+}
+.trtable strong {
+  font-family: regular !important;
+}
+
+.toasterr {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  right: -20%;
+}
+
+@media (max-width: 576px) {
+  .trtable {
+    width: 90% !important;
+    font-size: 12px !important;
+    align-items: center !important;
+  }
+  .trtable img {
+    width: 50px !important;
+    height: 30px !important;
+    border-radius: 4px !important;
+  }
+  .trtable .descriptiontb {
+    display: none !important;
+  }
+  .trtable .inputtb {
+    width: 40px;
+    height: 25px;
+    border-radius: 10px;
+  }
+  .trtable button {
+    font-family: bold !important;
+    font-size: 12px !important;
+  }
+  .subtotal span {
+    font-size: 18px !important;
+  }
+}/*# sourceMappingURL=basket.css.map */

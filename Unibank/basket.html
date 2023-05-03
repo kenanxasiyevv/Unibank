@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unibank / Səbət</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="">
+    <header class="header1">
+        <div class="top top-navbar-mode">
+            <div class="container">
+                <div class="alltop">
+                    <div class="topleft">
+                        <nav>
+                            <i class="fa-solid fa-bars-staggered type-light"></i>
+                            <a class="unibank-logo me-4" href="index.html">
+                            </a>
+                            <a href="service.html">Xidmət şəbəkəsi</a>
+                            <a href="#">Bank haqqında</a>
+                            <a href="#">Keşbek</a>
+                            <a href="#">Tariflər</a>
+                            <a href="humanresources.html">İnsan resursları</a>
+                            <a href="#">Bankla əlaqə və təkliflər</a>
+                        </nav>
+
+                        <div class="tel">
+                            <a class="type-light" href="tel:117"><i class="fa-solid fa-phone"></i>117</a>
+                        </div>
+
+                    </div>
+                    <div class="topright">
+                        <div class="ctypes d-inline-block ">
+                            <a id="ctype1" class="type-light active_type" href="#">Fərdi</a>
+                            <a id="ctype2" class="type-light" href="#">Biznes</a>
+                        </div>
+                        <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                            <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                        </div>
+                        <div class="language-change d-inline-block">
+                            <a class="type-light d-none btnlang" href="#">AZE</a>
+                            <a class="type-light btnlang" href="#">ENG</a>
+                            <a class="type-light btnlang" href="#">RUS</a>
+                        </div>
+                        <div class="searchmenu d-inline-block">
+                            <i class="fa-solid fa-magnifying-glass type-light"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="allbottom">
+                    <div class="bottomleft">
+                        <nav>
+                            <a href="cards.html">Kartlar</a>
+                            <a href="#">Kreditlər</a>
+                            <a href="#">Əmanətlər</a>
+                            <a href="#">Köçümələr</a>
+                            <a href="#">Rəqəmsal bankçılıq</a>
+                            <a href="#">Əlavə xidmətlər</a>
+                        </nav>
+                    </div>
+                    <div class="bottomright mb-2">
+                        <a href="basket.html"><i class="fa-solid fa-cart-shopping"><sup class="ms-2"> 0</sup></i></a>
+                        <a href="tel:117"><i class="fa-solid fa-phone"></i><span>117</span></a>
+                        <a href="internetbank.html" target="_blank"><i class="fa-solid fa-circle-right"></i>İnternet
+                            Bankçılıq</a>
+                    </div>
+                </div>
+                <div class="chat">
+                    <i class="fa-regular fa-comment imaage"></i>
+                </div>
+            </div>
+    </header>
+
+    <div class="hamburger_menu d-none ">
+        <div class="container">
+
+            <div class="ctypes d-inline-block  ">
+                <a id="ctypeh1" class="type-light active_type" href="#">Fərdi</a>
+                <a id="ctypeh2" class="type-light" href="#">Biznes</a>
+            </div>
+
+            <nav>
+                <a class="bold_nav" href="cards.html">Kartlar</a>
+                <a class="bold_nav" href="#">Kreditlər</a>
+                <a class="bold_nav" href="#">Əmanətlər</a>
+                <a class="bold_nav" href="#">Köçümələr</a>
+                <a class="bold_nav" href="#">Rəqəmsal bankçılıq</a>
+                <a class="bold_nav" href="#">Əlavə xidmətlər</a>
+                <a class="light_nav" href="#">F.A.Q</a>
+                <a class="light_nav" href="service.html">Xidmət şəbəkəsi</a>
+                <a class="light_nav" href="#">Bank haqqında</a>
+                <a class="light_nav" href="#">Keşbek</a>
+                <a class="light_nav" href="#">Tariflər</a>
+                <a class="light_nav" href="humanresources.html">İnsan resursları</a>
+                <a class="light_nav" href="#">Bankla əlaqə və təkliflər</a>
+            </nav>
+
+            <div class="btns_nav d-flex justify-content-center align-items-center ">
+
+                <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                    <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                </div>
+
+                <div class="searchmenu d-inline-block">
+                    <i class="fa-solid fa-magnifying-glass type-light"></i>
+                </div>
+
+                <div class="language-change d-inline-block">
+                    <a class="type-light d-none btnlang" href="#">AZE</a>
+                    <a class="type-light btnlang" href="#">ENG</a>
+                    <a class="type-light btnlang" href="#">RUS</a>
+                </div>
+
+
+                <div class="cart">
+                    <a class="int type-light" href="basket.html"><i class="fa-solid fa-cart-shopping "><sup
+                                class="ms-2">
+                                0</sup></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="searchdiv d-none">
+        <i class="fa-solid fa-xmark close"></i>
+        <p>Axtarış</p>
+        <form class="mx-auto">
+            <input type="text" class="w-100 px-4 rounded-5">
+        </form>
+        <i class="fa-solid fa-magnifying-glass loop"></i>
+        <div class="searchextension d-none">
+            <p class="d-inline-block w-50 mx-auto text-center">
+                <span>Məhsullar</span>
+                <span>Xəbərlər</span>
+                <span>Digər</span>
+            </p>
+            <a href="#">Bütün nəticələr</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr class="trtable">
+                        <th scope="col">Id</th>
+                        <th scope="col">Şəkil</th>
+                        <th scope="col">Növ</th>
+                        <th class="descriptiontb" scope="col">Açıqlama</th>
+                        <th scope="col">Say</th>
+                        <th scope="col">Qiymət</th>
+                        <th scope="col">Ümumi Qiymət</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <div style="width: 100% !important;"
+                class="alert text-center mt-4 w-75 mx-auto bg-danger-subtle alertmesage alert-danger d-none">
+                Səbət Boşdur!
+            </div>
+
+            <div class="subtotal text-center fs-5">
+                <span>Ümumi Qiymət:</span> <span class="me-5 totalprice">0</span>
+                <span>Ümumi Say: </span> <span class="totalcount">0</span>
+            </div>
+        </div>
+    </section>
+
+    <div id="toasterr" class="toaster hidden"></div>
+
+    <footer class="mb-4">
+        <div class="container">
+            <div class="row footer_boxes">
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Kartlar</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="cards.html">Kartlar</a></li>
+                        <li><a href="#">Debet kartlar</a></li>
+                        <li><a href="#">Digər</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Kreditlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Nağd</a></li>
+                        <li><a href="#">Mikro</a></li>
+                        <li><a href="#">İpoteka</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Əmanətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Müddətli</a></li>
+                        <li><a href="#">Proqressiv</a></li>
+                        <li><a href="#">Yığım</a></li>
+                        <li><a href="#">Faizlər əvvəlcədən</a></li>
+                        <li><a href="#">Topla</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Köçürmələr</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Ölkəxarici</a></li>
+                        <li><a href="#">Ölkədaxili</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box ">
+                    <h3>Rəqəmsal bankçılıq</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">UBank</a></li>
+                        <li><a href="#">İnternet bankçılıq</a></li>
+                        <li><a href="#">Şəxsi kabinet</a></li>
+                        <li><a href="#">Unimiles şəxsi kabinet</a></li>
+                        <li><a href="#">Onlayn kredit ödənişi</a></li>
+                        <li><a href="#">Onlayn kredit müraciəti</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box">
+                    <h3>Əlavə xidmətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hesablaşma-kassa xidməti</a></li>
+                        <li><a href="#">POS terminal / Smart kassa</a></li>
+                        <li><a href="#">Depozit qutuları</a></li>
+                        <li><a href="#">Onlayn ticarət (eCommerce)</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-13 ftr_box">
+                    <h3>Bank haqqında</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Rəhbərlik</a></li>
+                        <li><a href="#">Müxbir hesablar</a></li>
+                        <li><a href="#">Təklif və Şikayətlər</a></li>
+                        <li><a href="humanresources.html">İnsan resursları</a></li>
+                        <li><a href="#">Hesabatlar</a></li>
+                        <li><a href="#">Digər sənədlər</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="socialm_icons mt-4">
+                <a href="https://apps.apple.com/ru/app/unibank-mobile/id1073632425"><i
+                        class="fa-brands fa-apple"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking&pli=1"><i
+                        class="fa-brands fa-android"></i></a>
+                <a href="https://www.facebook.com/unibank.az/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/unibank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/unibankazerbaijan/"></a> <i
+                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/c/UnibankAze"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/unibank.az/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/UnibankAZ"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <hr>
+            <div class="footer_bottom mt-4">
+                <div class="footer_bottom_left">
+                    © 2023, Unibank - Sənin Bankın
+                    <div class="footer_cr_text">
+                        Bütün hüquqlar qorunur.
+                    </div>
+                </div>
+
+                <div class="footer_imgs">
+                    <img src="assets/images/footer1.png" alt="">
+                    <img src="assets/images/footer2.png" alt="">
+                    <img src="assets/images/footer3.png" alt="">
+                    <img src="assets/images/footer4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_res">
+            <div class="footer_bottom_res">
+                © 2023, Unibank - Sənin Bankın
+                <div class="footer_res_text">
+                    Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli
+                    lisenziyası əsasında fəaliyyət göstərir.
+                    Bütün hüquqlar qorunur.
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cards.js"></script>
+    <script src="assets/js/basket.js"></script>
+</body>
+
+</html>

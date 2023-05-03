@@ -1,0 +1,342 @@
+.wrapper .wrapper_text h1 {
+  font-size: 32px;
+  color: #ff6400 !important;
+  font-family: extra-bold;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.wrapper .wrapper_buttons a {
+  font-family: bold;
+  line-height: 14px;
+  font-size: 14px;
+  color: #a1a1a1 !important;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  padding: 16px 40px;
+  border-radius: 25px;
+  border: 2px solid #969696;
+}
+.wrapper .wrapper_buttons .active_wrapper_button {
+  font-family: bold;
+  border: 2px solid #FF6400;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  color: #FF6400 !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.wrapper .wrapper_buttons .active_wrapper_button::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  transform: rotateZ(-45deg) translate(-50%);
+  width: 16px;
+  height: 16px;
+  border-left: 2px solid #FF6400;
+  border-bottom: 2px solid #FF6400;
+  left: 50%;
+  background-color: white;
+}
+.wrapper .video_bar {
+  background-image: url(/assets/images/videobar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 260px;
+  z-index: 1;
+  width: 1180px;
+  cursor: pointer;
+}
+.wrapper .video_bar iframe {
+  width: 1100px;
+  position: relative;
+  z-index: -1;
+  height: 200px;
+  margin: 10px 10px;
+}
+.wrapper .video_bar i {
+  position: absolute;
+  left: 49%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.contents .allcontent .content_box .box {
+  height: 325px;
+  padding: 54px 66px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.contents .allcontent .content_box .box:hover {
+  background-color: #FF6400 !important;
+  color: white !important;
+}
+.contents .allcontent .content_box .box:hover i,
+.contents .allcontent .content_box .box:hover p,
+.contents .allcontent .content_box .box:hover h5 {
+  color: white !important;
+}
+.contents .allcontent .content_box .box .icon {
+  line-height: 65px;
+}
+.contents .allcontent .content_box .box .icon i {
+  font-size: 60px;
+  color: #FF6400;
+}
+.contents .allcontent .content_box .box .content_text h5 {
+  font-family: bold;
+  font-size: 20px;
+  line-height: normal;
+  margin: 20px 0 10px;
+}
+.contents .allcontent .content_box .box .content_text p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: normal;
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ceos_unibank .ceos .ceobox .box {
+  padding: 45px 65px;
+  height: 420px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+.ceos_unibank .ceos .ceobox .box .img {
+  width: 105px;
+  height: 105px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.ceos_unibank .ceos .ceobox .box .img img {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+.ceos_unibank .ceos .ceobox .box .name {
+  font-family: bold;
+  font-size: 20px;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.ceos_unibank .ceos .ceobox .box .position p {
+  font-family: regular;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+.ceos_unibank .ceos .ceobox .box .description {
+  margin-top: 15px;
+}
+.ceos_unibank .ceos .ceobox .box .description p {
+  font-family: regular;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.general_description {
+  margin-top: 3rem;
+}
+.general_description .desc_box .box {
+  padding: 45px 56px;
+  border-radius: 10px;
+}
+.general_description .desc_box .box .about {
+  font-family: extra-bold;
+  color: #FF6400 !important;
+  font-size: 32px;
+  line-height: 32px;
+}
+.general_description .desc_box .box .all_desc div p {
+  font-family: regular;
+  font-size: 14px;
+  color: #000;
+  margin-top: 22px;
+  line-height: 1.43;
+}
+.general_description .desc_box .box .all_desc div p span {
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+.benefits .benefit_box {
+  padding: 35px 45px;
+  background-color: #FF6400 !important;
+  border-radius: 13px;
+  text-align: center;
+  height: 200px;
+}
+.benefits .benefit_box .icon {
+  margin-bottom: 10px;
+}
+.benefits .benefit_box .icon i {
+  font-size: 52px;
+  color: #fff;
+}
+.benefits .benefit_box .benefit_consept p {
+  font-family: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fff !important;
+}
+
+.values {
+  margin-bottom: 70px;
+}
+.values .value_heading h1 {
+  font-family: extra-bold;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0 0 20px;
+  color: #FF6400 !important;
+}
+.values .allvalues .valuebox .head_box p {
+  font-family: bold;
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+.values .allvalues .context_box span {
+  font-family: regular;
+  font-size: 14px;
+  line-height: 23px;
+}
+.values .allvalues .context_box strong {
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .wrapper .content_wrapper .wrapper_text h1 {
+    font-size: 22px;
+  }
+  .wrapper .content_wrapper .wrapper_buttons {
+    width: 130% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .content_wrapper .wrapper_buttons a {
+    display: inline-block !important;
+    margin-bottom: 0px !important;
+    padding: 10px 20px !important;
+    margin-right: 10px !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+  .wrapper .content_wrapper .wrapper_buttons .active_wrapper_button {
+    padding: 10px 20px !important;
+    margin-right: 10px !important;
+    margin-bottom: 8px !important;
+  }
+  .wrapper .video_bar {
+    width: 460px;
+  }
+  .wrapper .video_bar iframe {
+    width: 450px !important;
+  }
+  .wrapper .video_bar i {
+    position: absolute;
+    left: 49%;
+    top: 38%;
+  }
+  .contents .allcontent .box {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 18px 36px !important;
+    height: 128px !important;
+  }
+  .contents .allcontent .box .icon {
+    padding-right: 20px !important;
+  }
+  .contents .allcontent .box .icon i {
+    font-size: 43px !important;
+  }
+  .contents .allcontent .box .content_text h5 {
+    line-height: 14px;
+    font-size: 14px !important;
+    height: auto;
+    margin-top: 0 !important;
+    margin-bottom: 2px !important;
+    text-align: left !important;
+  }
+  .contents .allcontent .box .content_text p {
+    line-height: 12px !important;
+    font-size: 12px !important;
+    text-align: left !important;
+    margin-bottom: 0;
+    padding-right: 30px !important;
+    height: auto;
+  }
+  .ceos_unibank .ceos .ceobox .box {
+    margin-bottom: 15px !important;
+  }
+  .ceos_unibank .ceos .ceobox .box .name {
+    font-size: 14px !important;
+  }
+  .ceos_unibank .ceos .ceobox .box .position {
+    font-size: 10px !important;
+  }
+  .ceos_unibank .ceos .ceobox .box .description p {
+    font-size: 12px !important;
+  }
+  .general_description {
+    margin-top: 15px !important;
+  }
+  .general_description .desc_box .box .about {
+    font-size: 20px !important;
+  }
+  .general_description .desc_box .box .all_desc p {
+    font-size: 12px !important;
+  }
+  .benefits .benefit_box {
+    padding: 20px 40px !important;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px !important;
+  }
+  .benefits .benefit_box .icon {
+    margin-right: 20px !important;
+  }
+  .benefits .benefit_box .icon i {
+    font-size: 34px !important;
+  }
+  .benefits .benefit_box .benefit_consept {
+    text-align: left !important;
+    font-size: 14px !important;
+  }
+  .values .value_heading h1 {
+    font-size: 20px !important;
+  }
+  .values .allvalues .valuebox {
+    margin-bottom: 20px;
+  }
+  .values .allvalues .valuebox .head_box p {
+    font-size: 14px !important;
+    margin: 0 0 2px !important;
+  }
+  .values .allvalues .valuebox .content_box span {
+    font-size: 12px !important;
+  }
+}/*# sourceMappingURL=humanresources.css.map */

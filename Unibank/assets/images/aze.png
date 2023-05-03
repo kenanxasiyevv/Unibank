@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://unibank.az/ -->
+<html xml:lang="az" lang="az" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="language" content="Turkish">
+<meta property="og:url" content="https://unibank.az/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Unibank">
+<link rel="stylesheet" type="text/css" href="./aze_files/design.css">
+<script type="text/javascript" async="" src="./aze_files/analytics.js.download"></script><script type="text/javascript" async="" src="./aze_files/tracking.js.download"></script><script async="" src="./aze_files/w.js.download"></script><script src="./aze_files/inferredevents.js.download" async=""></script><script src="./aze_files/180257256065725" async=""></script><script async="" src="./aze_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./aze_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-yVUHtIpds8Tl/RiQE0yJa9zbdbWLiDChDOh21M+FbehU63XhxluEyLXxS9zMIE4r"></script><script type="text/javascript" src="./aze_files/jquery.min.js.download"></script>
+<title>Unibank</title>
+
+
+
+<!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://unibank.az/assets/images/favicon.ico/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="https://unibank.az/assets/images/favicon.ico/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="https://unibank.az/assets/images/favicon.ico/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://unibank.az/assets/images/favicon.ico/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://unibank.az/assets/images/favicon.ico/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://unibank.az/assets/images/favicon.ico/favicon-128.png" sizes="128x128">
+<meta name="application-name" content="Unibank">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/assets/images/favicon.ico/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/assets/images/favicon.ico/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/assets/images/favicon.ico/mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="/assets/images/favicon.ico/mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="/assets/images/favicon.ico/mstile-310x310.png">
+<link async="" rel="stylesheet" media="all" type="text/css" href="./aze_files/additional.css">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<meta name="google-site-verification" content="k5UYqIdcFVOr0JuZTE0-Dfn6MKdnvp2VsDxAdwG1Qog">
+<meta property="fb:pages" content="95588021237">
+<meta property="og:image" content="/uploads/menus/rotator.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="article">
+<meta property="article:author" content="Unibank">
+<meta property="og:title" content="Unibank">
+<meta name="keywords" content="unibank">
+<meta name="description" content="unibank">
+<meta property="og:description" content="unibank">
+<script async="" src="./aze_files/lazysizes.min.js.download" type="text/javascript"></script>
+<style type="text/css"></style><script type="text/javascript" charset="UTF-8" src="./aze_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./aze_files/util.js.download"></script></head>
+<body class="body dark--theme" cz-shortcut-listen="true">
+<header class="header">
+<div class="topbar" style="position: relative;z-index: 123;">
+<div class="container">
+<div class="topbar__wrapper  light">
+<div class="burger topbar__burger burger--light hidden--desk">
+<span class="icon icon--burger"></span>
+
+
+
+
+
+</div>
+<div class="topbar__flexbox">
+<div class="topbar__logo-w">
+<a href="https://unibank.az/az/site/index">
+<span class="sprite sprite--logo"></span>
+</a>
+</div>
+<div class="topbar__menu">
+
+
+
+<a class="topbar__menu--link" href="https://unibank.az/az/locations/index">
+Xidmət şəbəkəsi </a>
+<a class="topbar__menu--link" href="https://unibank.az/az/aboutBank">
+Bank haqqında </a>
+<a class="topbar__menu--link" href="https://unibank.az/cards/goto?language=az&amp;name=cashback">
+Keşbek </a>
+<a class="topbar__menu--link" href="https://unibank.az/az/documents/tariffs/62">
+Tariflər </a>
+<a class="topbar__menu--link" href="https://unibank.az/az/hrsnew/index">
+İnsan Resursları </a>
+<a class="topbar__menu--link" href="https://unibank.az/az/site/contacts">
+Bankla əlaqə və təkliflər </a>
+</div>
+</div>
+<div class="topbar__flexbox-flex hidden--mobile">
+<div class="topbar__ctypes  hidden--mobile">
+<a class="topbar__ctype  topbar__ctype--active" href="https://unibank.az/az/private-clients">
+Fərdi </a>
+<a class="topbar__ctype  " href="https://unibank.az/az/corporate/index">
+Biznes </a>
+</div>
+<div class="topbar__theme js-theme menubar__theme-dark">
+<a href="https://unibank.az/#">
+<span class="icon icon--theme icon--theme-light icon--theme-dark"></span>
+</a>
+</div>
+<div class="topbar__langs menubar__langs menubar__langs--light">
+<a href="https://unibank.az/en/private-clients" class="menubar__langs--item">
+eng </a>
+<a href="https://unibank.az/ru/private-clients" class="menubar__langs--item ">
+rus </a>
+<div class="menubar__langs-w">
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="menubar__search topbar__search">
+<a href="javascript:void(0)" style="pointer-events: none">
+
+<span class="icon icon-n--search icon--search" style="pointer-events: none"></span>
+</a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+            if (document.getElementById('ibankingbtn')) {
+
+                document.getElementById("ibankingbtn").onclick = function () {
+                    woopra.track("pv", {
+                        outgoing_url: 'https://online.unibank.az/ibank/login.jsf'
+                    });
+                };
+            }
+
+        </script>
+
+
+
+<a class="hidden--desktop topbar__ibanking topbar__hotline--mobile topbar__hotline-hidden button button--sprited  button--md button--ol-dark button--ol-
+        white" href="tel:117">
+<span class="icon icon--hotline         button__sprite"></span>117 </a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="menubar hidden--mobile">
+<div class="container">
+<div class="menubar__wrapper">
+<div class="menubar__menus">
+<div class="menubar__menu menubar__menu--first">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/cards">Kartlar</a> </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/loans/index">Kreditlər</a> </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/deposits/index">Əmanətlər</a> </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/transfers/national">Köçürmələr</a> </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/digitalbanking">Rəqəmsal bankçılıq</a> </div>
+<div class="menubar__menu menubar__menu--last">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/services">Əlavə xidmətlər</a> </div>
+</div>
+<div class="menubar__tools">
+<a class="topbar__ibanking topbar__hotline button button--sprited  button--md button--ol-gray" href="tel:117">
+<span class="icon icon--hotline  button__sprite"></span>
+<span style="line-height: 15px">117</span>
+</a>
+<a id="ibankingbtn" class="hidden--mobile  topbar__ibanking  button button--sprited  button--md button--ol-gray" target="_blank" href="https://online.unibank.az/ibank/login.jsf">
+<span class="icon icon--banking button__sprite"></span>
+<span style="line-height: 15px"> İnternet bankçılıq</span>
+</a>
+
+
+ 
+
+
+
+<!-- -->
+
+
+    
+<!-- -->
+
+ 
+
+
+
+
+
+
+
+</div>
+
+ 
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="menumodal menumodal--">
+<div class="menumodal__wrapper">
+<div class="topbar">
+<div class="container" style="opacity: 0;">
+<div class="topbar__wrapper ">
+<div class="burger topbar__burger topbar__burger--close hidden--desk">
+<span class="icon icon--close"></span>
+</div>
+
+
+
+
+
+<div class="topbar__ctypes hidden--mob">
+<a class="topbar__ctype topbar__ctype--active" href="https://unibank.az/az/private-clients">
+Fərdi </a>
+/
+<a class="topbar__ctype " href="https://unibank.az/az/corporate/index">
+Biznes </a>
+</div>
+<div class="burger topbar__burger topbar__burger--close hidden--mob">
+<span class="sprite sprite--close"></span>
+</div>
+
+
+ 
+
+
+ 
+<a href="https://unibank.az/az">
+<span class="sprite sprite--logo-dark"></span>
+</a>
+<a class="hidden--desk topbar__ibanking topbar__hotline button button--sprited  button--md button--ol-dark" target="_blank">
+<span class="icon icon--hotline  button__sprite" style="display: inline-block;"></span>117
+</a>
+</div>
+</div>
+</div>
+<div class="menubar">
+<div class="container">
+<div class="menubar__wrapper ">
+<div class="topbar__ctypes topbar__ctypes--mob hidden--desk">
+<a class="topbar__ctype topbar__ctype--first topbar__ctype--active" href="https://unibank.az/az/private-clients">
+Fərdi </a>
+<a class="topbar__ctype " href="https://unibank.az/az/corporate/index">
+Biznes </a>
+</div>
+<div class="menubar__menus">
+<div class="menubar__menu menubar__menu--first">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/cards">Kartlar</a>  
+ 
+ 
+ 
+ </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/loans/index">Kreditlər</a>  
+ 
+ 
+ 
+ </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/deposits/index">Əmanətlər</a>  
+ 
+ 
+ 
+ </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/transfers/national">Köçürmələr</a>  
+ 
+ 
+ 
+ </div>
+<div class="menubar__menu ">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/digitalbanking">Rəqəmsal bankçılıq</a>  
+ 
+ 
+ 
+ </div>
+<div class="menubar__menu menubar__menu--last">
+<a class="menubar__link " target="_self" href="https://unibank.az/az/services">Əlavə xidmətlər</a>  
+ 
+ 
+ 
+ </div>
+</div>
+</div>
+</div>
+</div>
+<div class="menumodal__footer ">
+<div class="container">
+<div class="menumodal__footer-w ">
+
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/az/locations/index">
+
+Xidmət şəbəkəsi </a>
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/az/aboutBank">
+
+Bank haqqında </a>
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/cards/goto?language=az&amp;name=cashback">
+
+Keşbek </a>
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/az/documents/tariffs/62">
+
+Tariflər </a>
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/az/hrsnew/index">
+
+İnsan Resursları </a>
+<a class="menumodal__btn button button--sprited button--md button--ol-white" href="https://unibank.az/az/site/contacts">
+
+Bankla əlaqə və təkliflər </a>
+</div>
+</div>
+</div>
+<div class="clearfix hidden--desk"></div>
+<div class="menubar__tools menubar__tools--mob hidden--desk">
+<div class="menubar__theme js-theme">
+<a href="https://unibank.az/#">
+
+<span class="icon icon--theme icon--theme-light"></span>
+</a>
+</div>
+<div class="menubar__search">
+<a href="https://unibank.az/#">
+
+<span class="icon icon--search"></span>
+</a>
+</div>
+<div class="menubar__langs menubar__langs--dark">
+<a href="https://unibank.az/en/private-clients" class="menubar__langs--item ">
+eng </a>
+<a href="https://unibank.az/ru/private-clients" class="menubar__langs--item ">
+rus </a>
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="frontbanner hidden--mob frontbanner--">
+<style></style><div class="fotorama--hidden"></div><div class="fotorama fotorama1682430515701" data-width="100%" data-height="100%" data-max-height1="768px" data-nav="dots" data-arrows="false" data-autoplay="5000"><div class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows fotorama__wrap--no-controls" style="width: 100%; min-width: 0px; max-width: 100%;"><div class="fotorama__stage" style="width: 1176px; height: 711px;"><div class="fotorama__stage__shaft" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); width: 1176px; margin-left: 0px;"><div class="fotorama__stage__frame fotorama__loaded" style="left: -1178px;"><div class="fotorama__html"><div class="frontbanner__slide" style="background-image: url(/uploads/banners/1669813480bg2.jpg); background-color: #ff6b00">
+<div class="frontbanner__slide-w">
+<div class="frontbanner__wrapper container">
+<div class="frontbanner__overlay">
+
+ <div class="frontbanner__imgholder">
+
+<img class="frontbanner__product-pic frontbanner__product-pic--stick-bottom ls-is-cached lazyloaded" data-src="/uploads/banners/1673854081cover-ne.png" alt="Sənin kartın, sənin “art”ın!" src="./aze_files/1673854081cover-ne.webp">
+</div>
+<div class="frontbanner__info frontbanner__info--stick-bottom">
+<div class="frontbanner__header">
+Sənin kartın, sənin “art”ın!
+
+
+</div>
+<div class="frontbanner__desc">
+UBank-a daxil ol, Apple Wallet / Google Wallet™dakı Unibank kartlarını istədiyin dizayna dəyiş və hamıdan fərqli ol!
+</div>
+<div class="frontbanner__btns--desk">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div><div class="fotorama__stage__frame fotorama__loaded fotorama__active" style="left: 0px;"><div class="fotorama__html"><div class="frontbanner__slide" style="background-image: url(/uploads/banners/1670397779bg2.jpg); background-color: #ff6b00">
+<div class="frontbanner__slide-w">
+<div class="frontbanner__wrapper container">
+<div class="frontbanner__overlay">
+
+ <div class="frontbanner__imgholder">
+
+<img class="frontbanner__product-pic frontbanner__product-pic--stick-bottom lazyloaded" data-src="/uploads/banners/16703977791661845566digerbank.gif" alt="Kartdan karta - pulsuzdur!" src="./aze_files/16703977791661845566digerbank.gif">
+</div>
+<div class="frontbanner__info frontbanner__info--stick-bottom">
+<div class="frontbanner__header">
+Kartdan karta - pulsuzdur!
+
+
+</div>
+<div class="frontbanner__desc">
+Unibank kartlarına limitsiz, ölkədaxili digər bank kartlarına isə 2000 AZN-dək köçürmələri 0% ilə et!
+</div>
+<div class="frontbanner__btns--desk">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div><div class="fotorama__arr fotorama__arr--prev" tabindex="0" role="button" style="display: none;"></div><div class="fotorama__arr fotorama__arr--next fotorama__arr--disabled" tabindex="-1" role="button" style="display: none;" disabled="disabled"></div><div class="fotorama__video-close"></div></div><div class="fotorama__nav-wrap"><div class="fotorama__nav fotorama__nav--dots" style="width: 1176px;"><div class="fotorama__nav__shaft" style="transition-duration: 330ms; transform: translate3d(0px, 0px, 0px);"><div class="fotorama__thumb-border"></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot fotorama__active" tabindex="0" role="button"><div class="fotorama__dot"></div></div></div></div></div></div></div>
+</div>
+<div class="frontbanner hidden--desk sdfgh">
+<style></style><div class="fotorama--hidden"></div><div class="fotorama fotorama1682430663212" data-width="100%" data-height="260px" data-nav="dots" data-arrows="false"><div class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows" style="width: 100%; min-width: 0px; max-width: 100%;"><div class="fotorama__stage" style="width: 100px; height: 260px;"><div class="fotorama__stage__shaft" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); width: 100px; margin-left: 0px;"><div class="fotorama__stage__frame fotorama__loaded fotorama__active" style="left: 0px;"><div class="fotorama__html"><div class="frontbanner__slide" style="">
+<div class="frontbanner__wt" style="background-image: url(/uploads/banners/1682404726bg2.jpg); ">
+</div>
+<div class="frontbanner__slide-w">
+<div class="frontbanner__overlay ">
+<div class="container" style="height: 100%">
+<div class="frontbanner__wrapper ">
+<img class="lazyload frontbanner__product-pic 2asdfg frontbanner__product-pic--stick-bottom" data-src="/uploads/banners/1682404726kredit-xetti-ac1 (1).png" style="right:px" alt="Kredit xəttini dərhal aç!">
+
+
+
+
+
+<div class="frontbanner__info  frontbanner__info--stick-bottom">
+<div class="frontbanner__header">
+Kredit xəttini dərhal aç! </div>
+<div class="frontbanner__desc ">
+Bunun üçün sadəcə UBank mobil tətbiqində UCard-nı seç və saniyələr ərzində pul kartına otursun! </div>
+<div class="frontbanner__btns">
+<a class="frontbanner__btn frontbanner__btn--alone button button--sm button--ol-white  button--sprited" href="https://unibank.az/az/cards/view/1998">
+Ətraflı </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div><div class="fotorama__stage__frame fotorama__loaded" style="left: 102px;"><div class="fotorama__html"><div class="frontbanner__slide" style="">
+<div class="frontbanner__wt" style="background-image: url(/uploads/banners/1681193395bg2.jpg); ">
+</div>
+<div class="frontbanner__slide-w">
+<div class="frontbanner__overlay ">
+<div class="container" style="height: 100%">
+<div class="frontbanner__wrapper ">
+<img class="lazyload frontbanner__product-pic 2asdfg frontbanner__product-pic--stick-bottom" data-src="/uploads/banners/1681193995200-azn-dovriyye.png" style="right:px" alt="Ləğv olundu!">
+
+
+
+
+
+<div class="frontbanner__info  frontbanner__info--stick-bottom">
+<div class="frontbanner__header">
+Ləğv olundu! </div>
+<div class="frontbanner__desc ">
+Artıq UCard-la dünyanın istənilən yanacaqdoldurma, kafe-restoran və marketlərində 5% keşbek qazanmaq üçün 200 AZN dövriyyə tələbi yoxdur! </div>
+<div class="frontbanner__btns">
+<a class="frontbanner__btn frontbanner__btn--alone button button--sm button--ol-white  button--sprited" href="https://unibank.az/cards/goto?language=az&amp;name=cashback">
+Ətraflı </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div><div class="fotorama__arr fotorama__arr--prev fotorama__arr--disabled" tabindex="-1" role="button" disabled="disabled" style="display: none;"></div><div class="fotorama__arr fotorama__arr--next" tabindex="0" role="button" style="display: none;"></div><div class="fotorama__video-close"></div></div><div class="fotorama__nav-wrap"><div class="fotorama__nav fotorama__nav--dots" style="width: 100px;"><div class="fotorama__nav__shaft" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"><div class="fotorama__thumb-border"></div><div class="fotorama__nav__frame fotorama__nav__frame--dot fotorama__active" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div><div class="fotorama__nav__frame fotorama__nav__frame--dot" tabindex="0" role="button"><div class="fotorama__dot"></div></div></div></div></div></div></div>
+</div>
+</div>
+<div class="statisticsbar ">
+<div class="container">
+<div class="statisticsbar__wrapper ">
+<div class="statisticsbar__wrapper2">
+<div class="statisticsbar__param-w">
+<div class="statisticsbar__param">
+<div class="statisticsbar__caption">
+Nağd kreditlər </div>
+<div class="statisticsbar__value">
+16% </div>
+<div class="statisticsbar__desc">
+-dən başlayaraq </div>
+<div class="statisticsbar__links">
+<a class="statisticsbar__link statisticsbar__link--white" href="https://onlineservices.unibank.az/OnlineLoanOffer/LoanOffer.jsp?woo_campaign=loanorder&amp;woo_source=unibank.az&amp;woo_medium=block" target="_blank">
+Sifariş et 
+</a>
+
+ 
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="statisticsbar__param-w">
+<div class="statisticsbar__param">
+<div class="statisticsbar__caption">
+Əmanətlər </div>
+<div class="statisticsbar__value">
+11% </div>
+<div class="statisticsbar__desc">
+-dək illik gəlir </div>
+<div class="statisticsbar__links">
+<a class="statisticsbar__link statisticsbar__link--white" href="https://unibank.az/az/deposits/index">
+Ətraflı </a>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="statisticsbar__param-w">
+<div class="statisticsbar__param statisticsbar__param--last">
+<div class="statisticsbar__caption">
+Plastik kartlar </div>
+<div class="statisticsbar__value">
+30% </div>
+<div class="statisticsbar__desc">
+-dək keşbek xidməti </div>
+<div class="statisticsbar__links">
+
+<a class="statisticsbar__link statisticsbar__link--white" href="https://unibank.az/az/cards">
+Ətraflı </a>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="statisticsbar__param-w">
+<div class="statisticsbar__param statisticsbar__param--last">
+<div class="statisticsbar__caption">
+Kredit kartı </div>
+<div class="statisticsbar__value">
+40 </div>
+<div class="statisticsbar__desc">
+günədək güzəşt müddəti </div>
+<div class="statisticsbar__links">
+
+<a class="statisticsbar__link statisticsbar__link--white" href="https://unibank.az/az/cards">
+Ətraflı </a>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appbar appbar--ucardbar">
+<div class="container">
+<div class="appbar__wrapper d-flex-center">
+<div class="appbar__img--holder appbar__img-w appbar__img-w--ucardbar">
+<img class="appbar__img lazyloaded" data-src="/assets/static/Ucard/ucard.webp" alt="UBank" src="./aze_files/ucard.webp">
+</div>
+<div class="appbar__text">
+<h2 class="appbar__heading">
+Sənin kartın - UCarddır! </h2>
+<div class="appbar__desc appbar__desc--ucardbar">
+Bu kart sənə dünyanın istənilən yerində multivalyutalı hesablarla alış-veriş imkanı, 10 000 ₼-dək və 40 günədək faizsiz kredit xətti, 30%-dək keşbek və illik 6%-dək gəlir əldə etmək imkanı verir. Bir sözlə, bütün ehtiyaclar tək kartda!
+</div>
+<div class="appbar__extras appbar__extras--multiple hidden--mobile">
+<a class="button button--fill-orange button--lg button--apply" href="https://unibank.az/az/cards/view/1998">
+Ətraflı </a>
+<a class="button button--lg button--link button--text-white button--apply button--fill-white albalicard__btn button--fill-white-d button--fill-transparent" href="https://unibank.az/cards/ucardpartners">Partnyorlar</a>
+<a class="button button--lg button--link button--text-white button--apply button--fill-white albalicard__btn button--fill-white-d button--fill-transparent" href="https://onlineservices.unibank.az/PersonalCabinet/login.html?lang=az">Şəxsi kabinet</a>
+</div>
+<div class="appbar__extras appbar__extras--multiple hidden--desktop">
+<div class="" style="margin-right:10px;">
+<a class="button button--fill-orange  button--lg  button--block" href="https://unibank.az/az/cards/view/1998">
+Ətraflı </a>
+</div>
+<br>
+<div class="flex flex--flexforever flex--space-btw">
+<a class="button button--block button--lg button--link button--apply button--text-white  button--fill-white albalicard__btn button--fill-white-d button--fill-transparent" href="https://unibank.az/cards/ucardpartners">Partnyorlar</a>
+<a class="button button--block button--lg button--link button--apply button--text-white  button--fill-white albalicard__btn button--fill-white-d button--fill-transparent" href="https://onlineservices.unibank.az/PersonalCabinet/login.html?lang=az">Şəxsi kabinet</a>
+</div>
+<br>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="appbar">
+<div class="container">
+<div class="appbar__wrapper d-flex-center">
+<div class="appbar__text">
+<h2 class="appbar__heading">
+UBank </h2>
+<div class="appbar__links hidden--desktop">
+<a class="appbar__link" href="https://play.google.com/store/apps/details?id=az.unibank.mbanking">
+<span class="sprite sprite--playstore-label"></span>
+</a>
+<a class="appbar__link" href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425">
+<span class="sprite sprite--appstore-label"></span>
+</a>
+<a class="appbar__link" href="https://unibank.az/0">
+<span class="sprite sprite--appgalery-label"></span>
+</a>
+
+
+
+</div>
+<div class="appbar__desc">
+UBank 24/7 bank xidmətlərinə çıxışı smartfonunda təmin edən mobil əlavədir. Ödənişlərini banka gəlmədən, telefonunuzda bir toxunuşla həyata keçir! </div>
+<div class="appbar__links hidden--mob">
+<a class="appbar__link" href="https://play.google.com/store/apps/details?id=az.unibank.mbanking">
+<span class="sprite sprite--playstore-label"></span>
+</a>
+<a class="appbar__link" href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425">
+<span class="sprite sprite--appstore-label"></span>
+</a>
+<a class="appbar__link" href="https://unibank.az/0">
+<span class="sprite sprite--appgalery-label"></span>
+</a>
+
+
+
+</div>
+<div class="appbar__extras">
+<a class="appbar__extra" href="https://unibank.az/az/umobile/index">
+Haqqında </a>
+</div>
+</div>
+
+<div class="appbar__img--holder ">
+<img class="appbar__img ls-is-cached lazyloaded" data-src="/assets/images/appbar2.png" alt="UBank" src="./aze_files/appbar2.webp">
+</div>
+</div>
+</div>
+</div>
+<div class="exchange hidden--desk hidden--mobile">
+<div class="container">
+<div class="exchange__wrapper ">
+<div class="exchange__wrapper2">
+<h2 class="appbar__heading appbar__heading--curr" style="margin-bottom: 0">
+Valyuta məzənnələri</h2>
+<div class="siblings asdfgh">
+<div class=" siblings__links-mob">
+<a class="siblings__item siblings__item--active" data-id="exchange0" href="https://unibank.az/#">
+Nağd </a>
+<a class="siblings__item  " data-id="exchange1" href="https://unibank.az/#">
+Nağdsız </a>
+</div>
+<div class="siblings__contents siblings__contents--exchange">
+<div class="siblings__content siblings__content--active" data-id="exchange0">
+<div class="">
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USD</td>
+<td>1.6970 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7015 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>1.8463 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.9040 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0213 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.0901 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>2.1580 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="siblings__content " data-id="exchange1">
+<div class="text usertext">
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USD</td>
+<td>1.6900 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7025 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>1.8523 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.9117 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0216 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.0837 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>2.1590 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=" exchange__cat exchange__cat--cash exchange--convertor">
+<div class="exchange__header">
+Valyuta kalkulyatoru </div>
+<div class="exchange__date">
+Nağd məzənnə əsasında hesablanır </div>
+<div class="exchange__body">
+<div class="exchangecalc">
+<div class="exchangecalc__up">
+<input class="exchangecalc__inp exchangecalc__inp--up js--exchangecalc-inp" type="number" name="fromcurrVal" placeholder="0">
+<div class="select exchangecalc__select">
+<select class="select__inp js--exchangecalc-inp js--exchangecalc-dropdown js--exchangecalc-inp--from" name="fromcurr" id="fromcurr" tabindex="0" aria-hidden="false">
+<option value="RUB">RUB</option>
+<option value="GBP">GBP</option>
+<option value="USD" selected="selected">USD</option>
+<option value="EUR">EUR</option>
+<option value="AZN">AZN</option>
+</select> </div>
+</div>
+
+<div class="exchangecalc__down">
+<input class="exchangecalc__inp exchangecalc__inp--down  js--exchangecalc-inp-reverse" type="number" name="tocurrVal" placeholder="0">
+<div class="select exchangecalc__select">
+<select class="select__inp js--exchangecalc-inp js--exchangecalc-dropdown js--exchangecalc-inp--to" name="tocurr" id="tocurr" tabindex="0" aria-hidden="false">
+<option value="RUB">RUB</option>
+<option value="GBP">GBP</option>
+<option value="USD">USD</option>
+<option value="EUR">EUR</option>
+<option value="AZN" selected="selected">AZN</option>
+</select> </div>
+</div>
+</div>
+</div>
+
+ 
+ 
+  
+</div>
+<script type="text/javascript">
+    cashRates = [{"id":"3","json_time":"2023-04-25 05:00:00","currency":"USD","buy":"16970","sell":"17015","create_time":"2023-04-25 18:45:02","bStatus":"0","sStatus":"0","type":"0"},{"id":"4","json_time":"2023-04-25 05:00:00","currency":"EUR","buy":"18463","sell":"19040","create_time":"2023-04-25 18:45:03","bStatus":"0","sStatus":"0","type":"0"},{"id":"1","json_time":"2023-04-25 05:00:00","currency":"RUB","buy":"200","sell":"213","create_time":"2023-04-25 18:45:03","bStatus":"0","sStatus":"0","type":"0"},{"id":"2","json_time":"2023-04-25 05:00:00","currency":"GBP","buy":"20901","sell":"21580","create_time":"2023-04-25 18:45:02","bStatus":"0","sStatus":"0","type":"0"}];
+    cashlessRates = [{"id":"7","json_time":"2023-04-25 05:00:00","currency":"USD","buy":"16900","sell":"17025","create_time":"2023-04-25 18:45:05","bStatus":"0","sStatus":"0","type":"1"},{"id":"8","json_time":"2023-04-25 05:00:00","currency":"EUR","buy":"18523","sell":"19117","create_time":"2023-04-25 18:45:06","bStatus":"0","sStatus":"0","type":"1"},{"id":"5","json_time":"2023-04-25 05:00:00","currency":"RUB","buy":"200","sell":"216","create_time":"2023-04-25 18:45:05","bStatus":"0","sStatus":"0","type":"1"},{"id":"6","json_time":"2023-04-25 05:00:00","currency":"GBP","buy":"20837","sell":"21590","create_time":"2023-04-25 18:45:04","bStatus":"0","sStatus":"0","type":"1"}];
+    function exchangeCalc(parent) {
+        from = parseFloat($(parent).find('input[name="fromcurrVal"]').val());
+        fromCurr = $(parent).find('select[name="fromcurr"]').val();
+        toCurr = $(parent).find('select[name="tocurr"]').val();
+        ret = [];
+        if (fromCurr == toCurr)
+            return from;
+
+        if (fromCurr == 'AZN') {
+
+            return parseFloat(from) / cashRates[toCurr]['sell'];
+        } else {
+            tmp = parseFloat(from) * cashRates[fromCurr]['buy'];
+            if (toCurr == 'AZN')
+                return tmp;
+
+            return tmp / cashRates[toCurr]['sell'];
+        }
+    }
+    function exchangeCalcReverse(parent) {
+        to = parseFloat($(parent).find('input[name="tocurrVal"]').val());
+        fromCurr = $(parent).find('select[name="fromcurr"]').val();
+        toCurr = $(parent).find('select[name="tocurr"]').val();
+        ret = [];
+        if (fromCurr == 'AZN') {
+            if (toCurr == 'AZN')
+                return from;
+
+            return parseFloat(to) * cashRates[toCurr]['sell'];
+        } else {
+            tmp = parseFloat(to) / cashRates[fromCurr]['buy'];
+            if (toCurr == 'AZN')
+                return tmp;
+
+            return tmp * cashRates[toCurr]['sell'];
+        }
+    }
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="exchange">
+<div class="container">
+<div class="exchange__wrapper">
+<h2 class="appbar__heading hidden--mobile" style="margin-bottom: 0">
+Valyuta məzənnələri </h2>
+<h2 class="appbar__heading appbar__heading--curr hidden--desktop" style="margin-bottom: 0">
+Valyuta məzənnələri </h2>
+<div class="exchange__wrapper2">
+<div class="hidden--mobile">
+<div class="exchange__cat exchange__cat--cash">
+<div class="exchange__header">
+Nağd </div>
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="">USD</td>
+<td>1.6970 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7015 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>1.8463 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.9040 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0213 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.0901 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td class="">2.1580 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="exchange__cat exchange__cat--cash">
+<div class="exchange__header">
+Nağdsız </div>
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<div class="hidden">
+array(4) {
+[0]=&gt;
+object(ExchangeRatesNew)#168 (11) {
+["_new":"CActiveRecord":private]=&gt;
+bool(false)
+["_attributes":"CActiveRecord":private]=&gt;
+array(9) {
+["id"]=&gt;
+string(1) "7"
+["json_time"]=&gt;
+string(19) "2023-04-25 05:00:00"
+["currency"]=&gt;
+string(3) "USD"
+["buy"]=&gt;
+string(5) "16900"
+["sell"]=&gt;
+string(5) "17025"
+["create_time"]=&gt;
+string(19) "2023-04-25 18:45:05"
+["bStatus"]=&gt;
+string(1) "0"
+["sStatus"]=&gt;
+string(1) "0"
+["type"]=&gt;
+string(1) "1"
+}
+["_related":"CActiveRecord":private]=&gt;
+array(0) {
+}
+["_c":"CActiveRecord":private]=&gt;
+NULL
+["_pk":"CActiveRecord":private]=&gt;
+string(1) "7"
+["_alias":"CActiveRecord":private]=&gt;
+string(1) "t"
+["_errors":"CModel":private]=&gt;
+array(0) {
+}
+["_validators":"CModel":private]=&gt;
+NULL
+["_scenario":"CModel":private]=&gt;
+string(6) "update"
+["_e":"CComponent":private]=&gt;
+NULL
+["_m":"CComponent":private]=&gt;
+NULL
+}
+[1]=&gt;
+object(ExchangeRatesNew)#169 (11) {
+["_new":"CActiveRecord":private]=&gt;
+bool(false)
+["_attributes":"CActiveRecord":private]=&gt;
+array(9) {
+["id"]=&gt;
+string(1) "8"
+["json_time"]=&gt;
+string(19) "2023-04-25 05:00:00"
+["currency"]=&gt;
+string(3) "EUR"
+["buy"]=&gt;
+string(5) "18523"
+["sell"]=&gt;
+string(5) "19117"
+["create_time"]=&gt;
+string(19) "2023-04-25 18:45:06"
+["bStatus"]=&gt;
+string(1) "0"
+["sStatus"]=&gt;
+string(1) "0"
+["type"]=&gt;
+string(1) "1"
+}
+["_related":"CActiveRecord":private]=&gt;
+array(0) {
+}
+["_c":"CActiveRecord":private]=&gt;
+NULL
+["_pk":"CActiveRecord":private]=&gt;
+string(1) "8"
+["_alias":"CActiveRecord":private]=&gt;
+string(1) "t"
+["_errors":"CModel":private]=&gt;
+array(0) {
+}
+["_validators":"CModel":private]=&gt;
+NULL
+["_scenario":"CModel":private]=&gt;
+string(6) "update"
+["_e":"CComponent":private]=&gt;
+NULL
+["_m":"CComponent":private]=&gt;
+NULL
+}
+[2]=&gt;
+object(ExchangeRatesNew)#170 (11) {
+["_new":"CActiveRecord":private]=&gt;
+bool(false)
+["_attributes":"CActiveRecord":private]=&gt;
+array(9) {
+["id"]=&gt;
+string(1) "5"
+["json_time"]=&gt;
+string(19) "2023-04-25 05:00:00"
+["currency"]=&gt;
+string(3) "RUB"
+["buy"]=&gt;
+string(3) "200"
+["sell"]=&gt;
+string(3) "216"
+["create_time"]=&gt;
+string(19) "2023-04-25 18:45:05"
+["bStatus"]=&gt;
+string(1) "0"
+["sStatus"]=&gt;
+string(1) "0"
+["type"]=&gt;
+string(1) "1"
+}
+["_related":"CActiveRecord":private]=&gt;
+array(0) {
+}
+["_c":"CActiveRecord":private]=&gt;
+NULL
+["_pk":"CActiveRecord":private]=&gt;
+string(1) "5"
+["_alias":"CActiveRecord":private]=&gt;
+string(1) "t"
+["_errors":"CModel":private]=&gt;
+array(0) {
+}
+["_validators":"CModel":private]=&gt;
+NULL
+["_scenario":"CModel":private]=&gt;
+string(6) "update"
+["_e":"CComponent":private]=&gt;
+NULL
+["_m":"CComponent":private]=&gt;
+NULL
+}
+[3]=&gt;
+object(ExchangeRatesNew)#171 (11) {
+["_new":"CActiveRecord":private]=&gt;
+bool(false)
+["_attributes":"CActiveRecord":private]=&gt;
+array(9) {
+["id"]=&gt;
+string(1) "6"
+["json_time"]=&gt;
+string(19) "2023-04-25 05:00:00"
+["currency"]=&gt;
+string(3) "GBP"
+["buy"]=&gt;
+string(5) "20837"
+["sell"]=&gt;
+string(5) "21590"
+["create_time"]=&gt;
+string(19) "2023-04-25 18:45:04"
+["bStatus"]=&gt;
+string(1) "0"
+["sStatus"]=&gt;
+string(1) "0"
+["type"]=&gt;
+string(1) "1"
+}
+["_related":"CActiveRecord":private]=&gt;
+array(0) {
+}
+["_c":"CActiveRecord":private]=&gt;
+NULL
+["_pk":"CActiveRecord":private]=&gt;
+string(1) "6"
+["_alias":"CActiveRecord":private]=&gt;
+string(1) "t"
+["_errors":"CModel":private]=&gt;
+array(0) {
+}
+["_validators":"CModel":private]=&gt;
+NULL
+["_scenario":"CModel":private]=&gt;
+string(6) "update"
+["_e":"CComponent":private]=&gt;
+NULL
+["_m":"CComponent":private]=&gt;
+NULL
+}
+}
+</div><table>
+<thead>
+<tr>
+<th class="">
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+
+ <tr>
+<td class="">USD</td>
+<td class="">1.6900 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7025 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td class="">EUR</td>
+<td>1.8523 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td class="">1.9117 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td class="">0.0216 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.0837 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td class="">2.1590 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="exchange__cat exchange__cat--cash">
+<div class="exchange__header">
+Kart </div>
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="">USD</td>
+<td>1.6915 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7100 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+ <td>EUR</td>
+<td>1.8598 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.8974 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0205 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0213 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.1007 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>2.1431 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="siblings hidden--desktop">
+<div class="siblings__links-mob">
+<a class="siblings__item siblings__item--active" data-id="exchange0" href="https://unibank.az/#">
+Nağd </a>
+<a class="siblings__item  " data-id="exchange1" href="https://unibank.az/#">
+Nağdsız </a>
+<a class="siblings__item" data-id="exchange3" href="https://unibank.az/#">
+Kart </a>
+</div>
+<div class="siblings__contents siblings__contents--exchange">
+<div class="siblings__content siblings__content--active" data-id="exchange0">
+<div class="">
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th class="">
+Valyuta </th>
+<th class="">
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USD</td>
+<td class="">1.6970 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7015 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+ </tr>
+<tr>
+<td>EUR</td>
+<td class="">1.8463 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.9040 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0213 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td class="">2.0901 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td class="">2.1580 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="siblings__content " data-id="exchange1">
+<div class="text usertext">
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USD</td>
+<td>1.6900 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7025 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>1.8523 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.9117 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+ <tr>
+<td>RUB</td>
+<td>0.0200 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0216 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>2.0837 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>2.1590 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="siblings__content " data-id="exchange3">
+<div class="text usertext">
+<div class="exchange__date">
+Yeniləndi 25.04.2023 </div>
+<div class="exchange__body">
+<table>
+<thead>
+<tr>
+<th>
+Valyuta </th>
+<th>
+Alış </th>
+<th>
+Satış </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USD</td>
+<td>1.6915 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.7100 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>1.8598 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>1.8974 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>0.0205 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>0.0213 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+ <tr>
+<td>GBP</td>
+<td>2.1007 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+<td>2.1431 <span class="exchange__icon exchange__icon--orange icon icon--down exchange__icon--down"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="exchange__cat exchange__cat--cash exchange--convertor exchange--convertor--2">
+<div class="exchange__header--w">
+<div class="exchange__header">
+Valyuta kalkulyatoru </div>
+<div class="exchange__date exchange__date--1">
+Nağd məzənnə əsasında hesablanır </div>
+</div>
+<div class="exchange__body exchange__body--2">
+<div class="exchangecalc">
+<div class="exchangecalc__up">
+<input class="exchangecalc__inp exchangecalc__inp--up js--exchangecalc-inp" type="number" name="fromcurrVal" placeholder="0">
+<div class="select exchangecalc__select">
+<select class="select__inp js--exchangecalc-inp js--exchangecalc-dropdown js--exchangecalc-inp--from select2-hidden-accessible" name="fromcurr" id="fromcurr" data-select2-id="fromcurr" tabindex="-1" aria-hidden="true">
+<option value="RUB">RUB</option>
+<option value="GBP">GBP</option>
+<option value="USD" selected="selected" data-select2-id="10">USD</option>
+<option value="EUR">EUR</option>
+<option value="AZN">AZN</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="9" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-fromcurr-container"><span class="select2-selection__rendered" id="select2-fromcurr-container" role="textbox" aria-readonly="true" title="USD"><span class="exchange--flag-container"><span class="exchange--flag exchange--flag-usd"></span>USD</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span> </div>
+</div>
+<div class="exchangecalc__down">
+<input class="exchangecalc__inp exchangecalc__inp--down  js--exchangecalc-inp-reverse" type="number" name="tocurrVal" placeholder="0">
+<div class="select exchangecalc__select">
+<select class="select__inp js--exchangecalc-inp js--exchangecalc-dropdown js--exchangecalc-inp--to select2-hidden-accessible" name="tocurr" id="tocurr" data-select2-id="tocurr" tabindex="-1" aria-hidden="true">
+<option value="RUB">RUB</option>
+<option value="GBP">GBP</option>
+<option value="USD">USD</option>
+<option value="EUR">EUR</option>
+<option value="AZN" selected="selected" data-select2-id="16">AZN</option>
+</select><span class="select2 select2-container select2-container--default select2-container--focus" dir="ltr" data-select2-id="15" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-tocurr-container"><span class="select2-selection__rendered" id="select2-tocurr-container" role="textbox" aria-readonly="true" title="AZN"><span class="exchange--flag-container"><span class="exchange--flag exchange--flag-azn"></span>AZN</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    cashRates = {"USD":{"sell":1.7015,"buy":1.697},"EUR":{"sell":1.904,"buy":1.8463},"RUB":{"sell":0.0213,"buy":0.02},"GBP":{"sell":2.158,"buy":2.0901}};
+    cashlessRates = {"USD":{"sell":1.7025,"buy":1.69},"EUR":{"sell":1.9117,"buy":1.8523},"RUB":{"sell":0.0216,"buy":0.02},"GBP":{"sell":2.159,"buy":2.0837}};
+    function exchangeCalc(parent) {
+        from = parseFloat($(parent).find('input[name="fromcurrVal"]').val());
+        fromCurr = $(parent).find('select[name="fromcurr"]').val();
+        toCurr = $(parent).find('select[name="tocurr"]').val();
+        ret = [];
+        if (fromCurr == toCurr)
+            return from;
+
+        if (fromCurr == 'AZN') {
+
+            return parseFloat(from) / cashRates[toCurr]['sell'];
+        } else {
+            tmp = parseFloat(from) * cashRates[fromCurr]['buy'];
+            if (toCurr == 'AZN')
+                return tmp;
+
+            return tmp / cashRates[toCurr]['sell'];
+        }
+    }
+    function exchangeCalcReverse(parent) {
+        to = parseFloat($(parent).find('input[name="tocurrVal"]').val());
+        fromCurr = $(parent).find('select[name="fromcurr"]').val();
+        toCurr = $(parent).find('select[name="tocurr"]').val();
+        ret = [];
+        if (fromCurr == 'AZN') {
+            if (toCurr == 'AZN')
+                return from;
+
+            return parseFloat(to) * cashRates[toCurr]['sell'];
+        } else {
+            tmp = parseFloat(to) / cashRates[fromCurr]['buy'];
+            if (toCurr == 'AZN')
+                return tmp;
+
+            return tmp * cashRates[toCurr]['sell'];
+        }
+    }
+</script>
+<div class="frontnews">
+<div class="container">
+<div class="frontnews__wrapper ">
+
+ 
+ 
+
+<div class="frontnews__body" style="overflow: hidden">
+  
+<div class="frontnews__article-w">
+<div class="frontnews__article">
+<a href="https://unibank.az/az/news/retail/951/unibank_birinci_rubu_menfeetle_basha_vurub" class="article-listing--link"></a>
+<div class="frontnews__text">
+<a class="frontnews__name" href="https://unibank.az/az/news/retail/951/unibank_birinci_rubu_menfeetle_basha_vurub">Unibank birinci rübü mənfəətlə başa vurub</a>
+<div class="frontnews__summary">
+“Unibank” KB ASC 2023-cü ilin birinci rübü üzrə əsas maliyyə göstəricilərini açıqlayıb. 31 mart 2023-cü il tarixinə Bankın əməliyyat mənfəəti 15 milyon manata yaxın olub. Hesabat dövrü ərzində Bankın məcmu gəlirlərində ciddi artım qeydə alınıb. Dövr ərzində cəmi gəlirlər ötən ilin müvafiq dövrü ilə müqayisədə 56% artaraq, 75 milyon manata yaxınlaşıb. Bunun 48 milyon manatı faiz gəlirləri, 27 milyon manatı isə qeyri-faiz gəlirləri hesabınadır. Beləliklə bank birinci rübü 4,3 milyon manat xalis mənfəətlə başa vurub. </div>
+<div class="frontnews__date">
+25.04.2023 </div>
+</div>
+</div>
+</div>
+  
+<div class="frontnews__article-w">
+<div class="frontnews__article">
+<a href="https://unibank.az/az/news/retail/948/senin_kartin_1_yashini_qeyd_edir" class="article-listing--link"></a>
+<div class="frontnews__text">
+<a class="frontnews__name" href="https://unibank.az/az/news/retail/948/senin_kartin_1_yashini_qeyd_edir">Sənin kartın 1 yaşını qeyd edir</a>
+<div class="frontnews__summary">
+Ölkə bank bazarında ilk olaraq kredit və multivalyutalı debet kartını özündə birləşdirən tək kartın – “Unibank”ın UCard məhsulunun müştərilərin istifadəsinə verilməsindən 1 il ötür. Dörd fərqli valyutada hesabları olan (AZN, USD, EUR, GBP) debet kartını və AZN valyutalı kredit xəttini birləşdirən UCard, hər parametri ilə müştərinin tələbatına və rahatlığına uyğunlaşdırılan kart məhsuludur. Bir il ərzində UCard ölkə kart bazarının ən çox istifadə olunan bank kartlarından birinə çevrilib.  </div>
+<div class="frontnews__date">
+13.04.2023 </div>
+</div>
+</div>
+</div>
+  
+<div class="frontnews__article-w">
+<div class="frontnews__article">
+<a href="https://unibank.az/az/news/retail/947/unibank_kartlarinda_200_azn_dovriyye_telebi_leghv_edildi_" class="article-listing--link"></a>
+<div class="frontnews__text">
+<a class="frontnews__name" href="https://unibank.az/az/news/retail/947/unibank_kartlarinda_200_azn_dovriyye_telebi_leghv_edildi_">Unibank kartlarında 200 AZN dövriyyə tələbi ləğv edildi </a>
+<div class="frontnews__summary">
+İndi Unibank kart sahiblərinin ay ərzində yüksək keşbek qazanmaq imkanı daha da artıb. Çünki artıq UCard-la yanacaqdoldurma, kafe-restoran və marketlərdə 5% keşbek qazanmaq üçün 200 manat dövriyyə tələbi yoxdur. Qeyd olunan xidmət və ticarət obyektlərində Apple Pay və Google Pay ilə ödəniş edən UCard sahibləri dövriyyə tələbi olmadan, dərhal 5% keşbek qazanacaqlar. </div>
+<div class="frontnews__date">
+11.04.2023 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="frontnews__body--btnHolder">
+<a href="https://unibank.az/news" class="frontnews__body--btn">Bütün xəbərlər</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="network network--loan">
+<div class="network__location-w">
+<div class="network__location">
+<div class="network__location--img">
+<img src="./aze_files/Bitmap.webp" alt="">
+</div>
+<h2 class="network__heading network__heading-small">
+Xidmət şəbəkəsi </h2>
+<p class="network__summary">
+Filial və UTM-lərin ünvanları, həmçinin - iş saatları və digər məlumatlar haqqında ətraflı. </p>
+<a href="https://unibank.az/locations/index" class="network__btn">Daha ətraflı</a>
+</div>
+</div>
+<div class="network__quest-w">
+<div class="network__quest">
+<div class="network__quest--img">
+<img src="./aze_files/callcenter.svg" alt="">
+</div>
+<h2 class="network__heading network__heading-2">
+Sualın var?<br>Bizimlə əlaqə saxla! </h2>
+
+
+<p class="network__summary network__summary-2">
+Onlayn-məsləhətçi, 117 Çağrı mərkəzi və ya bank filiallarına müraciət et və suallarına cavab al. Rahat və asan! </p>
+<a href="https://unibank.az/contacts" class="network__btn">Daha ətraflı</a>
+</div>
+</div>
+</div></div>
+<footer class="footer">
+<div class="footer__wrapper container">
+<div class="footer__menus">
+<div class="footer__menu footer__menu--first">
+<a class="footer__link" target="_self" href="https://unibank.az/az/cards">Kartlar</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/cards">Kartlar</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/cards/debet">Debet kartlar</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/cards/other">Digər</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/loans/index">Kreditlər</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/loans/view/22">Nağd</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/loans/view/23">Mikro</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/loans/view/24">İpoteka</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/deposits/index">Əmanətlər</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/deposits/view/10">Müddətli</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/deposits/view/12">Proqressiv</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/deposits/view/11">Yığım</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/deposits/view/399">Faizlər əvvəlcədən</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/382/topla">Topla</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/transfers/national">Köçürmələr</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/transfers/international">Ölkəxarici</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/transfers/national">Ölkədaxili</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/digitalbanking">Rəqəmsal bankçılıq</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/umobile/index">UBank</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_blank" href="https://online.unibank.az/ibank/login.jsf">İnternet bankçılıq</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_blank" href="https://onlineservices.unibank.az/PersonalCabinet/login.html?lang=az">Şəxsi kabinet</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_blank" href="https://onlineservices.unibank.az/UniMiles/login.jsf">Unimiles şəxsi kabinet</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_blank" href="https://onlineservices.unibank.az/OnlineCreditPayment/index.jsp">Onlayn kredit ödənişi</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_blank" href="https://onlineservices.unibank.az/OnlineLoanOffer/LoanOffer.jsp">Onlayn kredit müraciəti</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/services">Əlavə xidmətlər</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/29/hesablashma_kassa_xidmeti">Hesablaşma-kassa xidməti</a> </div>
+<div class="footer__child">
+ <a class="footer__link2" target="_self" href="https://unibank.az/az/menus/31/pos_terminal_smart_kassa">POS terminal / Smart kassa</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/30/depozit_qutulari">Depozit qutuları</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/227/onlayn_ticaret_ecommerce_">Onlayn ticarət (eCommerce)</a> </div>
+</div>
+</div>
+<div class="footer__menu ">
+<a class="footer__link" target="_self" href="https://unibank.az/az/aboutBank">Bank haqqında</a> <div class="footer__children">
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/management">Rəhbərlik</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/64/muxbir_hesablar">Müxbir hesablar</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/menus/65/teklif_ve_shikayetler">Təklif və Şikayətlər</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/hrsnew/index">İnsan resursları</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/documents/quarterlyReports">Hesabatlar</a> </div>
+<div class="footer__child">
+<a class="footer__link2" target="_self" href="https://unibank.az/az/documents/others/145">Digər sənədlər</a> </div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="footer__socnets">
+<a href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425" class="footer__socnet">
+<span class="icon icon--orange icon--apple"></span>
+</a>
+<a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking" class="footer__socnet footer__socnet--playstore">
+<span class="icon icon--orange icon--android"></span>
+</a>
+<a href="https://www.facebook.com/unibank.az/" class="footer__socnet">
+<span class="icon icon--facebook"></span>
+</a>
+<a href="https://twitter.com/unibank" class="footer__socnet">
+<span class="icon icon--twitter"></span>
+</a>
+<a href="https://www.linkedin.com/company/unibankazerbaijan/" class="footer__socnet">
+<span class="icon icon--linkedin"></span>
+</a>
+<a href="https://www.youtube.com/c/UnibankAze" class="footer__socnet">
+<span class="icon icon--youtube"></span>
+</a>
+<a href="https://www.instagram.com/unibank.az/" class="footer__socnet">
+<span class="icon icon--instagram"></span>
+</a>
+<a href="https://t.me/UnibankAZ" class="footer__socnet">
+<span class="icon icon--telegram"></span>
+</a>
+<div class="clearfix"></div>
+</div>
+ <div class="footer__crbar">
+<div class="footer__cr">
+<div class="footer__cr-text">
+© 2023, Unibank - Sənin Bankın </div>
+<div class="footer__cr-text footer__cr-text--reserv">
+Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli lisenziyası əsasında fəaliyyət göstərir. <br> Bütün hüquqlar qorunur. </div>
+</div>
+<div class="footer__partners">
+<a class="footer__partner" href="http://adif.az/" target="_blank">
+<span class="sprite sprite--adif"></span>
+</a>
+<a class="footer__partner" href="https://www.e-gov.az/" target="_blank">
+<span class="sprite sprite--ehp"></span>
+</a>
+
+
+
+
+
+
+<a class="footer__partner" href="https://infobank.az/" target="_blank">
+<img style="height:45px" src="./aze_files/infobank.webp" alt="MALİYYƏ SAVADLILIĞI Portalı">
+</a>
+<a class="footer__partner" href="https://bizimpullar.az/" target="_blank">
+<img style="height:45px" src="./aze_files/msp.webp" alt="MALİYYƏ SAVADLILIĞI Portalı">
+</a>
+
+
+
+</div>
+</div>
+</div>
+</footer>
+<div class="searchmodal searchmodal-- collapse">
+<div class="searchmodal__wrapper ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="searchmodal__body">
+<div class="text--center searchmodal__body--close">
+<span class="icon icon--close js--searchClose" style="cursor: pointer;"></span>
+</div>
+<p class="text--22 text--center fieldgroup--heading">Axtarış</p>
+<div class="searchmodal__fieldgroup fieldgroup  ">
+<form>
+<input type="text" name="keyword" class="fieldgroup__inp" autocomplete="off">
+<label class="fieldgroup__label">Axtarış sözünü daxil edin</label>
+<button class="fieldgroup__btn">
+<span class="fieldgroup__icon icon icon--search-orange"></span>
+</button>
+</form>
+</div>
+<div class="searchmodal__results collapse  ">
+<div class="searchmodal__items searchmodal__items--products">
+<div class="searchmodal__items-caption">
+Məhsullar </div>
+<div class="searchmodal__items-w" data-noresult="Məhsul tapılmadı">
+</div>
+</div>
+<div class="searchmodal__items searchmodal__items--news">
+<div class="searchmodal__items-caption">
+Xəbərlər </div>
+<div class="searchmodal__items-w" data-noresult="Xəbər tapılmadı">
+</div>
+</div>
+<div class="searchmodal__items searchmodal__items--others">
+<div class="searchmodal__items-caption">
+Digər </div>
+<div class="searchmodal__items-w" data-noresult="Tapılmadı">
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="searchmodal__link2main">
+<a class="button button--ol-gray button--lg " data-href="/az/search/">Bütün nəticələr</a>
+</div>
+</div>
+</div>
+<div class="searchmodal__footer ">
+</div>
+</div>
+</div>
+<script type="text/javascript" src="./aze_files/js"></script>
+<script type="text/javascript" src="./aze_files/api.js.download"></script>
+<script type="text/javascript" src="./aze_files/design.js.download"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+        $('.js--exchangecalc-inp').change(function(e){
+        parent = $(this).parents('.exchange');
+          tmp = exchangeCalc(parent);
+            tmp = isNaN(tmp)?0:tmp;
+          $('input[name="tocurrVal"]').val(tmp.toFixed(4));
+        });
+        $('.js--exchangecalc-inp').change(function(e){
+            $('.js--exchangecalc-inp').not(this).find('option[value="'+$(this).val()+'"]').remove();
+            console.log($(this).val());
+            if ($(this).data('prev') && $('.js--exchangecalc-inp--from option[value="'+$(this).data('prev')+'"]').length==0){
+        debugger;
+                $('.js--exchangecalc-inp--from').append('<option value="'+$(this).data('prev')+'">'+$(this).data('prev')+'</option>');
+            }
+            if ($(this).data('prev') && $('.js--exchangecalc-inp--to option[value="'+$(this).data('prev')+'"]').length==0){
+        debugger;
+                $('.js--exchangecalc-inp--to').append('<option value="'+$(this).data('prev')+'">'+$(this).data('prev')+'</option>');
+            }
+            $(this).data('prev',$(this).val());
+        });
+        $('.js--exchangecalc-inp').keyup(function(e){
+        parent = $(this).parents('.exchange');
+          tmp = exchangeCalc(parent);
+            tmp = isNaN(tmp)?0:tmp;
+            $('input[name="tocurrVal"]').val(tmp.toFixed(4));
+        });
+        $('.js--exchangecalc-inp-reverse').keyup(function(e){
+        parent = $(this).parents('.exchange');
+          tmp = exchangeCalcReverse(parent);
+            tmp = isNaN(tmp)?0:tmp;
+          $('input[name="fromcurrVal"]').val(tmp.toFixed(4));
+        });
+});
+/*]]>*/
+</script>
+
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
+<filter id="drop-shadow">
+<fegaussianblur in="SourceAlpha" stdDeviation="4"></fegaussianblur>
+<feoffset dx="12" dy="12" result="offsetblur"></feoffset>
+<feflood flood-color="rgba(0,0,0,0.5)"></feflood>
+<fecomposite in2="offsetblur" operator="in"></fecomposite>
+<femerge>
+<femergenode></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</svg>
+<script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)
+                return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)
+                f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+                document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '180257256065725'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+    </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=180257256065725&ev=PageView&noscript=1" /></noscript>
+
+
+
+<script type="text/javascript">
+        (function () {
+            var t, i, e, n = window, o = document, a = arguments, s = "script", r = ["config", "track", "identify", "visit", "push", "call", "trackForm", "trackClick"], c = function () {
+                var t, i = this;
+                for (i._e = [], t = 0; r.length > t; t++)
+                    (function (t) {
+                        i[t] = function () {
+                            return i._e.push([t].concat(Array.prototype.slice.call(arguments, 0))), i
+                        }
+                    })(r[t])
+            };
+            for (n._w = n._w || {}, t = 0; a.length > t; t++)
+                n._w[a[t]] = n[a[t]] = n[a[t]] || new c;
+            i = o.createElement(s), i.async = 1, i.src = "//static.woopra.com/js/w.js", e = o.getElementsByTagName(s)[0], e.parentNode.insertBefore(i, e)
+        })("woopra");
+        woopra.config({
+            domain: 'unibank.az',
+            download_tracking: true,
+            outgoing_tracking: true
+        });
+        woopra.track();
+    </script>
+
+
+<script async="" src="./aze_files/js(1)" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119311521-1');
+</script>
+<script type="text/javascript">
+        var __lc = {};
+        __lc.license = 5807551;
+        __lc.group = 1;
+
+      (function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+
+
+
+    </script>
+
+<div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 25px; width: 84px; height: 84px; max-width: 100%; max-height: calc(100% - 25px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 25px; transition: none 0s ease 0s !important;"><iframe allow="autoplay; microphone *; camera *; display-capture *; picture-in-picture *; fullscreen *;" src="./aze_files/open_chat.html" allowtransparency="true" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; position: absolute; inset: 0px; transition: none 0s ease 0s !important; display: none;"></iframe><iframe allowtransparency="true" id="chat-widget-minimized" name="chat-widget-minimized" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;" src="./aze_files/saved_resource.html"></iframe></div></body></html>

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unibank</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="">
+    <header class="header1">
+        <div class="top top-navbar-mode">
+            <div class="container">
+                <div class="alltop ">
+                    <div class="topleft">
+                        <nav class="">
+                            <i class="fa-solid fa-bars-staggered type-light "></i>
+                            <a class="unibank-logo me-4" href="index.html">
+                            </a>
+                            <a href="service.html">Xidmət şəbəkəsi</a>
+                            <a href="#">Bank haqqında</a>
+                            <a href="#">Keşbek</a>
+                            <a href="#">Tariflər</a>
+                            <a href="humanresources.html">İnsan resursları</a>
+                            <a href="#">Bankla əlaqə və təkliflər</a>
+                        </nav>
+
+                        <div class="tel">
+                            <a class="type-light" href="tel:117"><i class="fa-solid fa-phone"></i>117</a>
+                        </div>
+
+                    </div>
+                    <div class="topright">
+                        <div class="ctypes d-inline-block ">
+                            <a id="ctype1" class="type-light active_type" href="#">Fərdi</a>
+                            <a id="ctype2" class="type-light" href="#">Biznes</a>
+                        </div>
+
+
+
+                        <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                            <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                        </div>
+                        <div class="language-change d-inline-block">
+                            <a class="type-light d-none btnlang" href="#">AZE</a>
+                            <a class="type-light btnlang" href="#">ENG</a>
+                            <a class="type-light btnlang" href="#">RUS</a>
+                        </div>
+                        <div class="searchmenu d-inline-block">
+                            <i class="fa-solid fa-magnifying-glass type-light"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="allbottom">
+                    <div class="bottomleft">
+                        <nav>
+                            <a href="cards.html">Kartlar</a>
+                            <a href="#">Kreditlər</a>
+                            <a href="#">Əmanətlər</a>
+                            <a href="#">Köçümələr</a>
+                            <a href="#">Rəqəmsal bankçılıq</a>
+                            <a href="#">Əlavə xidmətlər</a>
+                        </nav>
+                    </div>
+                    <div class="bottomright mb-2">
+                        <a class="int" href="basket.html"><i class="fa-solid fa-cart-shopping "><sup class="ms-2">
+                                    0</sup></i></a>
+                        <a class="phone" href="tel:117"><i class="fa-solid fa-phone"></i><span>117</span></a>
+                        <a href="internetbank.html" class="int" target="_blank"><i
+                                class="fa-solid fa-circle-right"></i>İnternet Bankçılıq</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div class="hamburger_menu d-none ">
+        <div class="container">
+
+            <div class="ctypes d-inline-block  ">
+                <a id="ctypeh1" class="type-light active_type" href="#">Fərdi</a>
+                <a id="ctypeh2" class="type-light" href="#">Biznes</a>
+            </div>
+
+            <nav>
+                <a class="bold_nav" href="cards.html">Kartlar</a>
+                <a class="bold_nav" href="#">Kreditlər</a>
+                <a class="bold_nav" href="#">Əmanətlər</a>
+                <a class="bold_nav" href="#">Köçümələr</a>
+                <a class="bold_nav" href="#">Rəqəmsal bankçılıq</a>
+                <a class="bold_nav" href="#">Əlavə xidmətlər</a>
+                <a class="light_nav" href="#">F.A.Q</a>
+                <a class="light_nav" href="service.html">Xidmət şəbəkəsi</a>
+                <a class="light_nav" href="#">Bank haqqında</a>
+                <a class="light_nav" href="#">Keşbek</a>
+                <a class="light_nav" href="#">Tariflər</a>
+                <a class="light_nav" href="humanresources.html">İnsan resursları</a>
+                <a class="light_nav" href="#">Bankla əlaqə və təkliflər</a>
+            </nav>
+
+            <div class="btns_nav d-flex justify-content-center align-items-center ">
+
+                <div onclick="toggleDarkMode()" id="icon-div" class="ldmode d-inline-block">
+                    <i id="icon" class="fa-solid fa-cloud-moon type-dark"></i>
+                </div>
+
+                <div class="searchmenu d-inline-block">
+                    <i class="fa-solid fa-magnifying-glass type-light"></i>
+                </div>
+
+                <div class="language-change d-inline-block">
+                    <a class="type-light d-none btnlang" href="#">AZE</a>
+                    <a class="type-light btnlang" href="#">ENG</a>
+                    <a class="type-light btnlang" href="#">RUS</a>
+                </div>
+
+                <div class="cart">
+                    <a class="int type-light" href="basket.html"><i class="fa-solid fa-cart-shopping "><sup
+                                class="ms-2">
+                                0</sup></i></a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="searchdiv d-none">
+        <i class="fa-solid fa-xmark close"></i>
+        <p>Axtarış</p>
+        <form class="mx-auto">
+            <input type="text" class="w-100 px-4 rounded-5">
+        </form>
+        <i class="fa-solid fa-magnifying-glass loop"></i>
+        <div class="searchextension d-none">
+            <p class="d-inline-block w-50 mx-auto text-center">
+                <span>Məhsullar</span>
+                <span>Xəbərlər</span>
+                <span>Digər</span>
+            </p>
+            <a href="#">Bütün nəticələr</a>
+        </div>
+    </div>
+
+    <div class="chat_icon">
+        <i onclick="Chat()" class="fa-regular fa-comment"></i>
+    </div>
+
+    <div class="chat-page d-none">
+        <div class="chatpage">
+            <div class="fixed">
+                <div class="chatpage_head">
+                    ... Online konsultasiyaya xoş gəl...
+                    <i id="minus" class="fa-solid fa-minus"></i>
+
+                </div>
+
+                <div class="chatpage_body">
+                    <div class="body-header">
+                        <i style="margin-left: 100px;margin-top: 33px;" class="fa-regular fa-user"></i>
+
+
+                    </div>
+                    <h2>Unibankın online konsultasiyasına xoş gəldiniz!</h2>
+
+                    <div class="inputt">
+                        <span>Adınız <i class="fa-solid fa-star-of-life"></i></span>
+
+                        <input id="inp1" type="text">
+                    </div>
+                    <div class="inputt">
+                        <span>E-mail <i class="fa-solid fa-star-of-life"></i></span>
+
+                        <input id="inp2" type="text">
+                    </div>
+                    <div class="inputt">
+                        <span>Əlaqə nömrəniz <i class="fa-solid fa-star-of-life"></i></span>
+
+                        <input id="inp3" type="text">
+                    </div>
+                    <div class="inputt">
+                        <span>Sual <i class="fa-solid fa-star-of-life"></i></span>
+
+                        <input id="inp4" type="text">
+                    </div>
+                </div>
+                <div class="button">
+                    <button>Çata başlayın</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section class="seccarusel">
+        <div class="container">
+            <div class="customcarusel">
+                <div class="carusel">
+                    <div class="slider">
+                        <div class="responsiveslider d-none">
+                            <div class="text">
+                                <h1>Ləğv olundu!</h1>
+                                <p>Artıq UCard-la dünyanın istənilən yanacaqdoldurma, kafe-restoran və marketlərində 5%
+                                    keşbek qazanmaq üçün 200 AZN dövriyyə tələbi yoxdur!</p>
+                                <a href="#">Ətraflı</a>
+                            </div>
+                            <div class="img">
+                                <img src="https://unibank.az/uploads/banners/1681193995200-azn-dovriyye.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="sliderpage d-flex justify-content-between">
+                            <div class=" box1">
+                                <div class="img">
+                                    <img width="400" src="assets/images/firstslider.png" alt="">
+                                </div>
+                            </div>
+                            <div class=" box2">
+                                <div class="text">
+                                    <h1>Ləğv olundu!</h1>
+                                    <p>Artıq UCard-la dünyanın istənilən yanacaqdoldurma, kafe-restoran və marketlərində
+                                        5% keşbek qazanmaq üçün 200 AZN dövriyyə tələbi yoxdur!</p>
+                                    <a href="#">Ətraflı</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="responsiveslider d-none">
+                            <div class="text">
+                                <h1>Topla</h1>
+                                <p>İstənilən arzunu reallaşdır! Hədəfinə ad ver və daxılına pul köçürməyə başla!</p>
+                                <a href="#">Ətraflı</a>
+                            </div>
+                            <div class="img second_image">
+                                <img src="assets/images/secondslider.png" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="sliderpage d-flex justify-content-between">
+                            <div class="  box1">
+                                <div class="img img2">
+                                    <img src="assets/images/thirdslider.png" alt="">
+                                </div>
+                            </div>
+                            <div class=" box2">
+                                <div class="text">
+                                    <h1>Topla</h1>
+                                    <p>İstənilən arzunu reallaşdır! Hədəfinə ad ver və daxılına pul köçürməyə başla!</p>
+                                    <a href="#">Ətraflı</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="responsiveslider d-none">
+                            <div class="text">
+                                <h1>Sənin kartın, sənin “art”ın!</h1>
+                                <p>UBank-a daxil ol, Apple Wallet / Google Wallet™dakı Unibank kartlarını istədiyin
+                                    dizayna dəyiş və hamıdan fərqli ol! </p>
+                            </div>
+                            <div class="img third_image">
+                                <img src="assets/images/thirdslider.png" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="sliderpage d-flex justify-content-between">
+                            <div class=" box1">
+                                <div class="img img3">
+                                    <img src="https://unibank.az/uploads/banners/1673854081cover-ne.png" alt="">
+                                </div>
+                            </div>
+                            <div class=" box2">
+                                <div class="text">
+                                    <h1>Sənin kartın, sənin “art”ın!</h1>
+                                    <p>UBank-a daxil ol, Apple Wallet / Google Wallet™dakı Unibank kartlarını istədiyin
+                                        dizayna dəyiş və hamıdan fərqli ol! </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="responsiveslider d-none">
+                            <div class="text">
+                                <h1>Kartdan karta - pulsuzdur!</h1>
+                                <p>Unibank kartlarına limitsiz, ölkədaxili digər bank kartlarına isə 2000 AZN-dək
+                                    köçürmələri 0% ilə et!</p>
+                            </div>
+                            <div class="img fourth_image">
+                                <img src="https://unibank.az/uploads/banners/16703977791661845566digerbank.gif" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="sliderpage d-flex justify-content-between">
+                            <div class=" box1">
+                                <div class="img img2">
+                                    <img src="https://unibank.az/uploads/banners/16703977791661845566digerbank.gif"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class=" box2">
+                                <div class="text">
+                                    <h1>Kartdan karta - pulsuzdur!</h1>
+                                    <p>Unibank kartlarına limitsiz, ölkədaxili digər bank kartlarına isə 2000 AZN-dək
+                                        köçürmələri 0% ilə et!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="radios">
+                    <ul>
+                        <li id="radio1" class="selected"></li>
+                        <li id="radio2"></li>
+                        <li id="radio3"></li>
+                        <li id="radio4"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="statics_bar mt-5">
+        <div class="container">
+            <div class="row boxes text-center">
+                <div class="col-lg-25  box  type-light class='type-light' ">
+                    <span class='type-light'>Nağd kreditlər</span>
+                    <h1 class='type-light'>16%</h1>
+                    <p class='type-light'>-dən başlayaraq</p>
+                    <a class='type-light' href="">Sifariş et</a>
+
+                </div>
+
+                <div class="col-lg-25  box type-light class='type-light' ">
+                    <span class='type-light'>Əmanətlər</span>
+                    <h1 class='type-light'>11%</h1>
+                    <p class='type-light'>-dək illik gəlir</p>
+                    <a class='type-light' href="#">Ətraflı</a>
+                </div>
+
+                <div class="col-lg-25  box type-light class='type-light' ">
+                    <span class='type-light'>Plastik kartlar</span>
+                    <h1 class='type-light'>30%</h1>
+                    <p class='type-light'>-dək keşbek xidməti</p>
+                    <a class='type-light' href="#">Ətraflı</a>
+                </div>
+
+                <div class="col-lg-25 col-5 box last_box type-light class='type-light' ">
+                    <span class='type-light'>Kredit kartı</span>
+                    <h1 class='type-light'>40</h1>
+                    <p class='type-light'>günədək güzəşt müddəti</p>
+                    <a class='type-light' href="#">Ətraflı</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="card_desc_bar ">
+        <div class="container">
+            <div class="cardbox_1">
+                <div class="row frstbox type-light">
+                    <div class="img type-light">
+                        <img class="type-light" src="assets/images/goldcard.png" alt="">
+                    </div>
+                    <div class=" context type-light">
+                        <h3 class="type-light">Sənin kartın - UCarddır!</h3>
+                        <p class="type-light">Bu kart sənə dünyanın istənilən yerində multivalyutalı hesablarla
+                            alış-veriş imkanı, 10 000 ₼-dək və 40 günədək faizsiz kredit xətti, 30%-dək keşbek və illik
+                            6%-dək gəlir əldə etmək imkanı verir. Bir sözlə, bütün ehtiyaclar tək kartda!</p>
+                        <div class="btns">
+                            <div class="first_btn">
+                                <a class=" btn-desc type-light me-3" href="">Ətraflı</a>
+
+                            </div>
+                            <div class="other_btns">
+                                <a class="btn-other type-light me-3" href="">Partnyorlar</a>
+                                <a class="btn-other type-light" href="">Şəxsi kabinet</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="row secondbox type-light">
+                    <div class="col-lg-6 context type-light">
+                        <h3 class="type-light">UBank!</h3>
+                        <p class="type-light">UBank 24/7 bank xidmətlərinə çıxışı smartfonunda təmin edən mobil
+                            əlavədir. Ödənişlərini banka gəlmədən, telefonunuzda bir toxunuşla həyata keçir!
+                        </p>
+                        <div class="download type-light ">
+                            <div class="playstoreimg type-light">
+                                <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking"> <img
+                                        class="type-light" src="assets/images/playstore.svg" alt=""></a>
+                            </div>
+                            <div class="appstoreimg type-light">
+                                <a href="https://apps.apple.com/ru/app/unibank-mobile/id1073632425"><img
+                                        class="type-light" src="assets/images/app-gallery.svg" alt=""></a>
+                            </div>
+                            <div class="app_galleryimg type-light">
+                                <a href="https://unibank.az/az/site/0"> <img class="type-light"
+                                        src="assets/images/app-gallery.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <a class=" btn-desc type-light me-3" href="">Haqqında</a>
+                    </div>
+                    <div class="col-lg-6 img type-light">
+                        <img class="type-light" src="assets/images/secondboxhomepage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="exchange_rates mt-5">
+        <div class="container">
+            <div class="rates type-light">
+                <h2 class="mb-4 type-light">Valyuta məzənnələri</h2>
+                <div class="choose_type">
+                    <a id="1" class="active_type_button" href="">Nağd</a>
+                    <a id="2" href="">Nağdsız</a>
+                    <a id="3" href="">Kart</a>
+                </div>
+                <div class="d-flex justify-content-between allrate type-light">
+                    <div class="ratebox rate1 type-light">
+                        <div class="contextrate type-light">
+                            <span class="type-light">Nağd</span>
+                            <p class="type-light">Yeniləndi 25.04.2023</p>
+                        </div>
+                        <table class="table_rates  type-light">
+                            <thead class="type-light">
+                                <tr class="type-light">
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Valyuta </p>
+                                    </th class="type-light">
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Alış </p>
+                                    </th>
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Satış </p>
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="type-light">
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> USD</td>
+                                    <td class="type-light"> <span class="type-light"> 1.6970 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 1.7015 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> EUR</span> </td>
+                                    <td class="type-light"> <span class="type-light"> 1.8387 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 1.9120 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> RUB</span></td>
+                                    <td class="type-light"> <span class="type-light"> 0.0201 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 0.0202 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> GBP</span></td>
+                                    <td class="type-light"> <span class="type-light"> 2.0895 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 2.1602 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="ratebox rate2  type-light">
+                        <div class="contextrate type-light">
+                            <span class="type-light">Nağdsız</span>
+                            <p class="type-light">Yeniləndi 25.04.2023</p>
+                        </div>
+
+                        <table class="table_rates type-light">
+                            <thead class='type-light'>
+                                <tr class='type-light'>
+                                    <th class='type-light' scope="col">
+                                        <p class="type-light"> Valyuta </p>
+                                    </th>
+                                    <th class='type-light' scope="col">
+                                        <p class="type-light"> Alış </p>
+                                    </th>
+                                    <th class='type-light' scope="col">
+                                        <p class="type-light"> Satış </p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class='type-light'>
+                                    <td class='type-light'> <span class="type-light"> USD </span></td>
+                                    <td class='type-light'> <span class="type-light"> 1.6990 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class='type-light'> <span class="type-light"> 1.6999 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class='type-light'>
+                                    <td class='type-light'> <span class="type-light"> EUR </span></td>
+                                    <td class='type-light'> <span class="type-light"> 1.8485 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class='type-light'> <span class="type-light"> 1.9102 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class='type-light'>
+                                    <td class='type-light'> <span class="type-light"> RUB </span></td>
+                                    <td class='type-light'> <span class="type-light"> 0.0200 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class='type-light'> <span class="type-light"> 0.0205 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class='type-light'>
+                                    <td class='type-light'> <span class="type-light"> GBP </span></td>
+                                    <td class='type-light'> <span class="type-light"> 2.0901 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class='type-light'> <span class="type-light"> 2.1601 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="ratebox rate3  type-light">
+                        <div class="contextrate type-light">
+                            <span class="type-light">Kart</span>
+                            <p class="type-light">Yeniləndi 25.04.2023</p>
+                        </div>
+
+                        <table class="table_rates type-light">
+                            <thead class="type-light">
+
+                                <tr class="type-light">
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Valyuta </p>
+                                    </th>
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Alış </p>
+                                    </th>
+                                    <th class="type-light" scope="col">
+                                        <p class="type-light"> Satış </p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="type-light">
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> USD </span></td>
+                                    <td class="type-light"> <span class="type-light"> 1.6970 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 1.7015 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> EUR </span> </td>
+                                    <td class="type-light"> <span class="type-light"> 1.8463 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 1.9040 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> RUB </span></td>
+                                    <td class="type-light"> <span class="type-light"> 0.0200 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 0.0200 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                                <tr class="type-light">
+                                    <td class="type-light"> <span class="type-light"> GBP </span></td>
+                                    <td class="type-light"> <span class="type-light"> 2.0901 </span> <i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                    <td class="type-light"> <span class="type-light"> 2.1580 </span><i
+                                            class="fa-solid fa-chevron-down type-light"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="exchange_calc mt-5 type-light">
+                    <div class="row box">
+
+                        <div class="calc_text col-lg-4">
+                            <span class="mb-2">Valyuta kalkulyatoru</span>
+                            <p>Nağd məzənnə əsasında hesablanır</p>
+                        </div>
+
+                        <div class="inputexc col-lg-3">
+                            <input class="type-light" placeholder="0" type="text">
+                            <div class="lang_option">
+                                <i class="fa-solid fa-chevron-down type-light"></i>
+                                <select class="type-light">
+                                    <option value="usd">USD</option>
+                                    <option value="azn">AZN</option>
+                                    <option value="rub">RUB</option>
+                                    <option value="gbp">GBP</option>
+                                    <option value="eur">EUR</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="icon col-lg-2">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+
+                        <div class="inputexc col-lg-3">
+                            <input class="type-light" type="text" placeholder="0">
+                            <div class="lang_option">
+                                <i class="fa-solid fa-chevron-down type-light"></i>
+                                <select class="type-light">
+                                    <option value="azn">AZN</option>
+                                    <option value="usd">USD</option>
+                                    <option value="rub">RUB</option>
+                                    <option value="gbp">GBP</option>
+                                    <option value="eur">EUR</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="news mt-5 mb-4">
+        <div class="container">
+            <div class="allnews d-flex justify-content-between">
+                <div class="new  type-light me-4">
+                    <h3>Unibank birinci rübü mənfəətlə başa vurub</h3>
+                    <p> “Unibank” KB ASC 2023-cü ilin birinci rübü üzrə əsas maliyyə göstəricilərini açıqlayıb. 31 mart
+                        2023-cü il tarixinə Bankın əməliyyat mənfəəti 15 milyon manata yaxın olub. Hesabat dövrü ərzində
+                        Bankın məcmu gəlirlərində ciddi artım qeydə alınıb. Dövr ərzində cəmi gəlirlər ötən ilin müvafiq
+                        dövrü ilə müqayisədə 56% artaraq, 75 ...</p>
+                    <span> 25.04.2023 </span>
+                </div>
+
+                <div class="new  type-light me-4">
+                    <h3>Sənin kartın 1 yaşını qeyd edir</h3>
+                    <p> Ölkə bank bazarında ilk olaraq kredit və multivalyutalı debet kartını özündə birləşdirən tək
+                        kartın – “Unibank”ın UCard məhsulunun müştərilərin istifadəsinə verilməsindən 1 il ötür. Dörd
+                        fərqli valyutada hesabları olan (AZN, USD, EUR, GBP) debet kartını və AZN valyutalı kredit
+                        xəttini birləşdirən UCard, hər parametri ilə...</p>
+                    <span>13.04.2023</span>
+                </div>
+
+                <div class="new type-light">
+                    <h3> Unibank kartlarında 200 AZN dövriyyə tələbi ləğv edildi</h3>
+                    <p> İndi Unibank kart sahiblərinin ay ərzində yüksək keşbek qazanmaq imkanı daha da artıb. Çünki
+                        artıq UCard-la yanacaqdoldurma, kafe-restoran və marketlərdə 5% keşbek qazanmaq üçün 200 manat
+                        dövriyyə tələbi yoxdur. Qeyd olunan xidmət və ticarət obyektlərində Apple Pay və Google Pay ilə
+                        ödəniş edən UCard...</p>
+                    <span>11.04.2023</span>
+                </div>
+
+
+            </div>
+            <div class="allnewsbtn text-center mt-4 ">
+                <button>Bütün xəbərlər</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="network mb-5">
+        <div class="container">
+            <div class="all_network_boxes">
+                <div class="d-flex justify-content-between boxes">
+                    <div class="  network_box network_location d-flex justify-content-between type-light">
+                        <div class="location_text">
+                            <h3>Xidmət <br> şəbəkəsi</h3>
+                            <p class="mt-3">Filial və UTM-lərin ünvanları, həmçinin - iş saatları və digər məlumatlar
+                                haqqında ətraflı.</p>
+                            <a href="#">Daha ətraflı</a>
+                        </div>
+                        <div class="bitmap_image">
+                            <img style="background-color: transparent!important;" src="assets/images/Bitmap.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="network_box network_guest type-light">
+                        <h3>Sualın var? <br> Bizimlə əlaqə saxla!</h3>
+                        <p class="mt-2">Onlayn-məsləhətçi, 117 Çağrı mərkəzi və ya bank filiallarına müraciət et və
+                            suallarına cavab al. Rahat və asan!</p>
+                        <a href="#">Daha ətraflı</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="mb-4">
+        <div class="container">
+            <div class="row footer_boxes">
+
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Kartlar</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="cards.html">Kartlar</a></li>
+                        <li><a href="#">Debet kartlar</a></li>
+                        <li><a href="#">Digər</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Kreditlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Nağd</a></li>
+                        <li><a href="#">Mikro</a></li>
+                        <li><a href="#">İpoteka</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Əmanətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Müddətli</a></li>
+                        <li><a href="#">Proqressiv</a></li>
+                        <li><a href="#">Yığım</a></li>
+                        <li><a href="#">Faizlər əvvəlcədən</a></li>
+                        <li><a href="#">Topla</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Köçürmələr</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Ölkəxarici</a></li>
+                        <li><a href="#">Ölkədaxili</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box light-mode ">
+                    <h3>Rəqəmsal bankçılıq</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">UBank</a></li>
+                        <li><a href="#">İnternet bankçılıq</a></li>
+                        <li><a href="#">Şəxsi kabinet</a></li>
+                        <li><a href="#">Unimiles şəxsi kabinet</a></li>
+                        <li><a href="#">Onlayn kredit ödənişi</a></li>
+                        <li><a href="#">Onlayn kredit müraciəti</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Əlavə xidmətlər</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hesablaşma-kassa xidməti</a></li>
+                        <li><a href="#">POS terminal / Smart kassa</a></li>
+                        <li><a href="#">Depozit qutuları</a></li>
+                        <li><a href="#">Onlayn ticarət (eCommerce)</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-13 ftr_box light-mode">
+                    <h3>Bank haqqında</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Rəhbərlik</a></li>
+                        <li><a href="#">Müxbir hesablar</a></li>
+                        <li><a href="#">Təklif və Şikayətlər</a></li>
+                        <li><a href="humanresources.html">İnsan resursları</a></li>
+                        <li><a href="#">Hesabatlar</a></li>
+                        <li><a href="#">Digər sənədlər</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="socialm_icons mt-4">
+                <a href="https://apps.apple.com/ru/app/unibank-mobile/id1073632425"><i
+                        class="fa-brands fa-apple"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking&pli=1"><i
+                        class="fa-brands fa-android"></i></a>
+                <a href="https://www.facebook.com/unibank.az/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/unibank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/unibankazerbaijan/"></a> <i
+                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/c/UnibankAze"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/unibank.az/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/UnibankAZ"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <hr>
+            <div class="footer_bottom mt-4">
+                <div class="footer_bottom_left">
+                    © 2023, Unibank - Sənin Bankın
+                    <div class="footer_cr_text">
+                        Bütün hüquqlar qorunur.
+                    </div>
+                </div>
+
+                <div class="footer_imgs">
+                    <img src="assets/images/footer1.png" alt="">
+                    <img src="assets/images/footer2.png" alt="">
+                    <img src="assets/images/footer3.png" alt="">
+                    <img src="assets/images/footer4.png" alt="">
+                    <br>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_res">
+            <div class="footer_bottom_res">
+                © 2023, Unibank - Sənin Bankın
+                <div class="footer_res_text">
+                    Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli
+                    lisenziyası əsasında fəaliyyət göstərir.
+                    Bütün hüquqlar qorunur.
+                </div>
+            </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cards.js"></script>
+</body>
+
+</html>

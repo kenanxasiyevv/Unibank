@@ -1,0 +1,486 @@
+#body {
+    background-image: url(https://online.unibank.az/ibank/resources/imgs/icons/bg-login.png);
+
+    header {
+        width: 55%;
+        margin: auto;
+
+        .allside {
+            padding-top: 5rem;
+
+            .langside {
+                a {
+                    text-decoration: none;
+                    color: #7C7C7C;
+                    font-size: 14px;
+                    font-family: bold;
+                    margin-left: 0.2rem;
+                    padding: 4px;
+                    transition: 0.7s;
+
+                    &:hover {
+                        background-color: #000000;
+                        color: #000000;
+                    }
+                }
+            }
+
+            .active_buton {
+                border-bottom: 3px solid #7c7c7c !important;
+                font-family: extra-bold;
+            }
+        }
+    }
+
+    section {
+        .commonpage {
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            margin: 1rem auto 5rem;
+
+            .leftpage {
+                width: 530px;
+                min-height: 737px;
+
+                .bankingpage {
+
+                    .slidepage {
+                        .slide {
+                            background-color: #F8F8F8;
+                            border-radius: 8px;
+                            padding: 6rem;
+                            box-shadow: 18px 20px 33px 20px rgba(0, 0, 0, 0.15);
+                        }
+
+                        .slideimg {
+                            width: 100%;
+                            height: 250px;
+
+
+                            img {
+                                width: 100%;
+                                box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, .15);
+                                border-radius: 5px;
+                            }
+                        }
+
+                        .context {
+                            margin-top: 2rem;
+                            height: 200px;
+
+                            h4 {
+                                color: #3E3E3E;
+                                font-size: 20px;
+                                font-family: boldpro;
+                            }
+
+                            p {
+                                color: #9B9B9B;
+                                font-size: 16px;
+                                font-family: regular;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .changer {
+                background-color: #F8F8F8;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                padding-bottom: 5rem;
+
+                span {
+                    padding: 8px;
+                    background-color: rgba(175, 168, 168, .55);
+                    border-radius: 100%;
+                    margin: 0 0.1rem;
+                    cursor: pointer;
+                }
+
+                .active_dot {
+                    background-color: #FF6400 !important;
+                }
+            }
+        }
+
+        .rightpage {
+            width: 530px;
+            height: 769px !important;
+
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            padding: 5rem 3rem;
+
+            h3 {
+                span {
+                    font-size: 18px;
+                    color: #3F3F3F;
+                    font-family: bold;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #000000;
+                    font-family: bold;
+                    border-bottom: 1px solid #000000;
+                }
+            }
+
+            .logparams {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    width: 100%;
+
+                    img {
+                        width: 99%;
+                        margin-top: 10px
+                    }
+                }
+
+                .right {
+                    padding: 1rem 0;
+
+                    .active_buton_360 {
+                        border: 1px solid #FF6400 !important;
+                    }
+
+
+                    .active_orange_buton {
+                        border-bottom: 1px solid #FF6400;
+                    }
+
+                    button {
+                        display: block;
+                        width: 116%;
+                        text-align: left !important;
+                        height: 60px;
+                        margin: 1rem 0;
+                        background-color: transparent;
+                        border-radius: 5px;
+                        border: 1px solid rgba(0, 0, 0, .3);
+
+                        i {
+                            font-size: 24px;
+                            margin-right: 0.9rem;
+                            margin-left: 21px;
+
+                            color: #7C7C7C;
+                        }
+
+                        span {
+                            font-size: 18px;
+                            color: #000000;
+                            font-family: regular;
+                        }
+                    }
+                }
+            }
+
+            p {
+                margin-top: 1rem;
+                padding: 5px 20px;
+                background-color: #F3F3F3;
+
+                i {
+                    margin-right: 10px;
+                    color: #808080;
+                    cursor: pointer;
+                }
+
+
+                span {
+                    font-size: 16px;
+                    font-family: regular;
+                    color: #808080;
+                }
+            }
+
+            form {
+                position: relative;
+                margin-top: 2rem;
+
+                input {
+                    width: 100%;
+                    outline-style: none;
+                    font-size: 18px;
+                    color: #6F6F6F;
+                    font-family: regular;
+                    border: none;
+                    padding: 0.5rem 3rem;
+                    border-bottom: 1px solid rgba(0, 0, 0, .3);
+                }
+
+                span {
+                    font-size: 14px;
+                    font-family: regular;
+                    margin-left: 2rem;
+                    color: #FF6400;
+                }
+
+                .code {
+                    width: 50%;
+                    padding: 0.3rem 4rem;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                }
+
+                .user {
+                    position: absolute;
+                    top: 25%;
+                    left: 2%;
+                    font-size: 22px;
+                    color: #808080;
+                }
+
+                .warning {
+                    position: absolute;
+                    top: 25%;
+                    left: 95%;
+                    font-size: 22px;
+                    color: #808080;
+                }
+
+                .lock {
+                    position: absolute;
+                    top: 67%;
+                    left: 2%;
+                    font-size: 22px;
+                    color: #808080;
+                }
+
+                .pin {
+                    position: absolute;
+                    top: 105%;
+                    left: 0;
+                    z-index: 1;
+                }
+
+                a {
+                    font-size: 14px;
+                    color: #808080;
+                    position: absolute;
+                    top: 110%;
+                    left: 73%;
+                }
+
+                button {
+                    width: 100%;
+                    background-color: #FF6400;
+                    padding: 0.6rem;
+                    border-radius: 5px;
+                    border: 1px solid #FF6400;
+                    position: absolute;
+                    top: 145%;
+                    left: 0;
+                    text-align: start;
+
+                    .enterance {
+                        color: #FFFFFF;
+                        font-size: 20px;
+                        font-family: regular;
+                    }
+
+                    i {
+                        color: #FFFFFF;
+                        font-size: 20px;
+                        position: absolute;
+                        top: 30%;
+                        left: 90%;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+#body::-webkit-scrollbar {
+    width: 3px;
+}
+
+#body::-webkit-scrollbar-thumb {
+    background-color: #FF6400;
+}
+
+
+
+@media (max-width:576px) {
+    .header2 {
+        width: 160% !important;
+    }
+
+    section {
+        .commonpage {
+            width: 160% !important;
+
+            img {
+                width: 71% !important;
+                height: 20px;
+            }
+
+            .leftpage {
+                height: 630px !important;
+
+                .bankingpage {
+                    .slidepage {
+                        .slide {
+                            padding: 6rem 2rem !important;
+
+                            .slideimg {
+                                height: 200px !important;
+
+                                img {
+                                    height: 170px !important;
+                                    width: 100%;
+                                }
+                            }
+
+                            .context {
+                                margin-top: 5rem !important;
+                                height: 200px !important;
+
+                                h4 {
+                                    font-size: 16px !important;
+                                }
+
+                                p {
+                                    font-size: 14px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rightpage {
+                height: 630px !important;
+                padding: 4rem 1rem !important;
+
+                h3 {
+                    span {
+                        font-size: 12px !important;
+                    }
+
+                    a {
+                        font-size: 12px !important;
+                    }
+                }
+
+                .logparams {
+                    .left {
+                        width: 100% !important;
+
+                        img {
+                            width: 95% !important;
+                            height: 130px !important;
+                            margin-bottom: 10px !important;
+                        }
+                    }
+
+                    .right {
+                        padding: 1.5rem 0 !important;
+
+                        button {
+                            height: 40px !important;
+                            margin: 0.2rem !important;
+                            width: 100% !important;
+
+                            i {
+                                font-size: 18px !important;
+                                margin-right: 0.5rem !important;
+                            }
+
+                            span {
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+
+                }
+
+                p {
+                    padding: 5px !important;
+
+                    i {
+                        margin-right: 5px !important;
+                    }
+
+                    span {
+                        font-size: 11px !important;
+                    }
+                }
+
+                form {
+                    margin-top: 1rem !important;
+
+                    span {
+                        font-size: 12px !important;
+                    }
+
+                    .pin {
+                        width: 23% !important;
+                    }
+
+                    input {
+                        font-size: 14px !important;
+                    }
+
+                    .code {
+                        width: 60% !important;
+
+
+                    }
+
+                    .user {
+                        font-size: 18px !important;
+                    }
+
+                    .warning {
+                        font-size: 18px !important;
+                        left: 92% !important;
+                    }
+
+                    .lock {
+                        font-size: 18px !important;
+                    }
+
+                    a {
+                        font-size: 12px !important;
+                        top: 105% !important;
+                        text-align: center;
+                    }
+
+                    button {
+                        width: 300px !important;
+                        margin-left: 0.20000000000000018rem !important;
+                        margin-top: 4rem !important;
+
+                        .enterance {
+                            font-size: 14px !important;
+                        }
+
+                        i {
+                            font-size: 12px !important;
+                            top: 50% !important;
+                            transform: translateY(-50%) !important;
+                            left: 80% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

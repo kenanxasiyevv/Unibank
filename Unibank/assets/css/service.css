@@ -1,0 +1,219 @@
+.map_location .mapcontent .map_text h1 {
+  font-size: 32px;
+  color: #ff6400 !important;
+  font-family: extra-bold;
+  margin-top: 20px;
+}
+.map_location .mapcontent .map_buttons a {
+  font-family: bold;
+  line-height: 14px;
+  font-size: 14px;
+  color: #a1a1a1 !important;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  padding: 16px 40px;
+  border-radius: 25px;
+  border: 2px solid #969696;
+}
+.map_location .mapcontent .map_buttons .active_button {
+  font-family: bold;
+  border: 2px solid #FF6400;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  color: #FF6400 !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.map_location .mapcontent .map_buttons .active_button::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  transform: rotateZ(-45deg) translate(-50%);
+  width: 16px;
+  height: 16px;
+  border-left: 2px solid #FF6400;
+  border-bottom: 2px solid #FF6400;
+  left: 50%;
+  background-color: white;
+}
+
+.branches .allbranches .branch {
+  display: flex;
+  padding: 35px 65px;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  transition: 0.3s;
+  height: 120px;
+  cursor: pointer;
+}
+.branches .allbranches .branch:hover {
+  background-color: #FF6400 !important;
+  color: white !important;
+}
+.branches .allbranches .branch:hover i {
+  color: white !important;
+}
+.branches .allbranches .branch:hover .fa-info {
+  border: 3px solid white !important;
+}
+.branches .allbranches .branch .left {
+  width: 80%;
+  line-height: 16px;
+}
+.branches .allbranches .branch .left p {
+  font-family: extra-bold;
+  font-size: 20px;
+}
+.branches .allbranches .branch .left p strong {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 900;
+}
+.branches .allbranches .branch .left span {
+  font-size: 14px;
+}
+.branches .allbranches .branch .middle_right {
+  width: 130%;
+}
+.branches .allbranches .branch .middle_right .middle {
+  width: 65%;
+  line-height: 16px;
+  align-items: center;
+}
+.branches .allbranches .branch .middle_right .middle i {
+  font-size: 34px;
+  transform: translate(-20px, -9px);
+  color: #ff6400;
+}
+.branches .allbranches .branch .middle_right .middle p {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.branches .allbranches .branch .middle_right .right {
+  width: 65%;
+  line-height: 16px;
+  align-items: center;
+}
+.branches .allbranches .branch .middle_right .right i {
+  font-size: 21px;
+  transform: translate(-17px, -9px);
+  border-radius: 100%;
+  border: 2px solid #FF6400;
+  padding: 4px 10px;
+  color: #ff6400;
+}
+.branches .allbranches .branch .middle_right .right p {
+  font-family: regular;
+  font-size: 14px;
+  line-height: 19px;
+}
+.branches .alert {
+  background-color: #FF6400;
+  padding: 15px 56px;
+}
+.branches .alert i {
+  color: #FF6400;
+  background-color: white;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.branches .alert p {
+  font-family: bold;
+  color: white;
+  transform: translateY(8px);
+}
+.branches .alert strong {
+  font-family: cursive;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .map_location .mapcontent {
+    overflow: hidden;
+  }
+  .map_location .mapcontent .map_text h1 {
+    font-size: 22px !important;
+  }
+  .map_location .mapcontent .map_buttons {
+    width: 130% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px !important;
+  }
+  .map_location .mapcontent .map_buttons a {
+    display: inline-block !important;
+    margin-bottom: 0px !important;
+    padding: 10px 20px !important;
+    margin-right: 10px !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+  .map_location .mapcontent .map_buttons .active_button {
+    padding: 10px 20px !important;
+    margin-right: 10px !important;
+    margin-bottom: 8px !important;
+  }
+  .map_location .mapcontent .map iframe {
+    width: 129% !important;
+    height: 420px !important;
+  }
+  .branches {
+    overflow: hidden;
+  }
+  .branches .branch {
+    width: 101% !important;
+    height: 165px !important;
+    display: block !important;
+    padding: 20px 50px !important;
+  }
+  .branches .branch .left {
+    display: block !important;
+  }
+  .branches .branch .left p {
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  .branches .branch .left p strong {
+    font-size: 14px !important;
+  }
+  .branches .branch .left span {
+    font-size: 12px !important;
+    display: inline-block !important;
+    margin-bottom: 16px !important;
+  }
+  .branches .branch .middle_right {
+    width: 120% !important;
+    margin: 15px 0 !important;
+  }
+  .branches .branch .middle_right i {
+    transform: translate(-6px, -7px) !important;
+  }
+  .branches .branch .middle_right .fa-clock {
+    font-size: 20px !important;
+  }
+  .branches .branch .middle_right .fa-info {
+    font-size: 10px !important;
+  }
+  .branches .branch .middle_right p {
+    font-size: 10px !important;
+  }
+  .branches .branch .middle_right .right {
+    width: 47% !important;
+    padding-right: 20px !important;
+  }
+  .branches .branch .middle_right .middle {
+    width: 50% !important;
+  }
+}/*# sourceMappingURL=service.css.map */

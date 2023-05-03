@@ -1,0 +1,16 @@
+@font-face {
+  font-family: light;
+  src: url(/assets/fonts/Coco-Sharp-Light-trial.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(/assets/fonts/Coco-Sharp-Regular-trial.ttf);
+}
+@font-face {
+  font-family: bold;
+  src: url(/assets/fonts/Coco-Sharp-Bold-trial.ttf);
+}
+@font-face {
+  font-family: extra-bold;
+  src: url(/assets/fonts/Coco-Sharp-Extrabold-trial.ttf);
+}/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,161 @@
+.type-light {
+    background-color: #fafafa !important;
+    color: black !important;
+}
+
+.type-dark {
+    background-color: #1A1A1A !important;
+    color: white !important;
+}
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+
+
+}
+
+.light-mode {
+    background-color: white !important;
+    color: black !important;
+}
+
+.top-navbar-mode {
+    background-color: #FAFAFA !important;
+
+
+}
+
+.body_dark_mode {
+    background-color: black;
+    color: white !important;
+
+    header a {
+        color: white !important;
+
+    }
+
+    div h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    span,
+    p {
+        color: white !important;
+    }
+
+
+    td,
+    th,
+    table,
+    thead,
+    tbody {
+        color: white !important;
+    }
+
+    header .top .alltop .topright .ctypes a {
+        background-color: #313131 !important;
+    }
+
+    .branches .alert {
+        background-color: #1a1a1a !important;
+
+        i {
+            color: #1A1A1A !important;
+        }
+    }
+
+    .exchange_rates .rates .exchange_calc {
+
+        background-color: #313131 !important;
+
+        * {
+            background-color: #313131 !important;
+        }
+
+    }
+
+    .searchdiv {
+        background-color: black !important;
+        opacity: 0.95 !important;
+
+        i {
+            color: white !important;
+        }
+
+        form {
+            input {
+                background-color: #252323 !important;
+            }
+        }
+
+        .searchextension {
+            background-color: black !important;
+
+            a {
+                border: 1px solid white !important;
+            }
+        }
+    }
+
+
+
+    hr {
+        width: 100% !important;
+        height: 4px !important;
+        color: white !important;
+    }
+
+    .exchange_rates .rates .choose_type .active_type_button {
+        &::after {
+            background-color: #1a1a1a !important;
+        }
+    }
+
+    footer a {
+        color: white !important;
+
+    }
+
+    .map_location .mapcontent .map_button {
+        background-color: #313131 !important;
+    }
+
+    .map_location .mapcontent .map_buttons .active_button {
+        &::after {
+            background-color: #313131 !important;
+        }
+    }
+
+
+
+    .wrapper .wrapper_buttons .wrapper_button {
+        background-color: #1a1a1a !important;
+        color: #a1a1a1 !important;
+    }
+
+    .wrapper .wrapper_buttons .active_wrapper_button {
+        &::after {
+            background-color: #1a1a1a !important;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .top-navbar-mode {
+        background-color: white !important;
+    }
+
+    .type-light {
+        background-color: #f5f5f6 !important;
+    }
+
+    .body_dark_mode {
+        .top {
+            background-color: black !important;
+        }
+    }
+}
